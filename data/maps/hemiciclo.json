@@ -1,0 +1,66 @@
+{
+ "id": "hemiciclo",
+ "name": "Hemiciclo Nacional",
+ "zone": "madrid",
+ "music": "legend",
+ "width": 10,
+ "height": 12,
+ "border": " ",
+ "interior": true,
+ "legend": {
+  "#": "wall_int",
+  "X": "carpet",
+  "Y": "podium",
+  "e": "mat",
+  "p": "plant",
+  "s": "seat",
+  " ": "void"
+ },
+ "rows": [
+  "##########",
+  "#pssYsssp#",
+  "#XXXXXXXX#",
+  "#sXXXXXXs#",
+  "#ssXXXXss#",
+  "#XXXXXXXX#",
+  "#ssXXXXss#",
+  "#XXXXXXXX#",
+  "#ssXXXXss#",
+  "#XXXXXXXX#",
+  "#pXXXXXXp#",
+  "####ee####"
+ ],
+ "warps": [
+  {
+   "x": 4,
+   "y": 11,
+   "to": "madrid",
+   "tx": 18,
+   "ty": 6,
+   "dir": "down"
+  },
+  {
+   "x": 5,
+   "y": 11,
+   "to": "madrid",
+   "tx": 18,
+   "ty": 6,
+   "dir": "down"
+  }
+ ],
+ "npcs": [
+  {
+   "id": "eterno",
+   "x": 4,
+   "y": 2,
+   "sprite": "eterno",
+   "dir": "down",
+   "event": "legend",
+   "hide_if": "flag:legend_done"
+  }
+ ],
+ "signs": [],
+ "items": [],
+ "areas": [],
+ "encounters": null
+}

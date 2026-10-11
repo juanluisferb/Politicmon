@@ -142,6 +142,21 @@ PLATFORM = """
 """
 
 
+EXCLAIM = """
+.3333333.
+311111113
+311131113
+311131113
+311131113
+311111113
+311131113
+311111113
+.3333333.
+....33...
+....3....
+"""
+
+
 def rot90(grid):
     h, w = len(grid), len(grid[0])
     return [[grid[h - 1 - y][x] for y in range(h)] for x in range(w)]
@@ -170,6 +185,7 @@ def main():
     save(grid_to_image(grid_from_rows(parse_rows(BTN_A)), touch), "assets", "ui", "touch_a.png")
     save(grid_to_image(grid_from_rows(parse_rows(BTN_B)), touch), "assets", "ui", "touch_b.png")
     save(grid_to_image(grid_from_rows(parse_rows(BTN_START)), touch), "assets", "ui", "touch_start.png")
+    save(grid_to_image(grid_from_rows(parse_rows(EXCLAIM)), BOX), "assets", "ui", "exclaim.png")
     bg = PAL["ui"]["battle_bg"]
     save(grid_to_image(grid_from_rows(parse_rows(PLATFORM)), ["#00000000"] + bg[1:]), "assets", "ui", "platform.png")
     print("ui ok")

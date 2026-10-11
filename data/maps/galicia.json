@@ -1,0 +1,275 @@
+{
+ "id": "galicia",
+ "name": "Galicia",
+ "zone": "galicia",
+ "music": "galicia",
+ "width": 26,
+ "height": 40,
+ "border": "T",
+ "interior": false,
+ "legend": {
+  "\"": "fog_grass",
+  "#": "dock",
+  ",": "stone_path",
+  ".": "prado",
+  "A": "noroeste_roof",
+  "B": "boat",
+  "C": "noroeste_column",
+  "D": "granite_door",
+  "E": "sede_door",
+  "G": "noroeste_door",
+  "H": "horreo_top",
+  "J": "horreo_bottom",
+  "P": "sede_roof",
+  "Q": "sede_wall",
+  "R": "slate_roof",
+  "S": "sign_prado",
+  "T": "pine",
+  "W": "granite_wall",
+  "X": "rocks",
+  "a": "noroeste_roof_edge",
+  "c": "noroeste_emblem",
+  "f": "flowers",
+  "i": "stone_fence",
+  "p": "sede_roof_edge",
+  "q": "sede_sign",
+  "r": "slate_roof_edge",
+  "s": "sand",
+  "w": "granite_window",
+  "~": "water"
+ },
+ "rows": [
+  "TTTTTTTTTTTTTTTTTTTTTTTTTT",
+  "T............iTTTTTTTTTTTT",
+  "T.T........T.i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T...AAAAAA...i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T...aaaaaa...i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T...CcCCcC...i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T...CCGCCC...i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T.....,......i...........T",
+  "T.....,S.....i....,,.....T",
+  "T.T...,....T.i.HH.,,..H..T",
+  "T.....,......i.JJ.,,..J..T",
+  "T..f..,...f..i....,,.....T",
+  "T.....,......i....,,PPPPPP",
+  "T.....,......i.HH.,,pppppp",
+  "Tiiiii,iiiiiii.JJ.,,QqQQqQ",
+  "T.....,...........,,QQEQQQ",
+  "T.\"\"\"\",\"\"\"\"\"\".....,,.....T",
+  "T.\"\"\"\",\"\"\"T\"\".....,,.....T",
+  "T.\"T\"\",\"\"\"\"\"\".....,,.....T",
+  "T.\"\"\"\",\"\"\"\"\"\".,,,,,,,,,,,T",
+  "T.\"\"\"\",,,,,,,,,,,,,,,,,,,,",
+  "T.\"\"\"\",\"\"\"\"\"\".,,,,,,,,,,,T",
+  "T.\"\"T\",\"\"\"\"\"\"....S,,.....T",
+  "T.\"\"\"\",\"\"T\"\"\".....,,RRRRRT",
+  "T.\"\"\"\",\"\"\"\"\"\".....,,rrrrrT",
+  "T.....,........HH.,,wWwWwT",
+  "Tsssss,sssssss.JJ.,,WWDWWT",
+  "Tsssss,ssSssss....,,.....T",
+  "Tsssss,sssssss\"\"\".,,\"\"\"\"\"T",
+  "Tsssss,sssssss\"\"\".,,\"\"\"\"\"T",
+  "Tssss###sssssX\"\"\".,,\"\"\"\"\"T",
+  "TX~~~###~~~~XX\"\"\".,,\"\"\"\"\"T",
+  "T~~~~###~~~~~X\"\"\".,,\"\"\"\"\"T",
+  "T~~~~#######~X\"\"\".,,\"\"\"\"\"T",
+  "T~B~~###~~~~~X....,,\"\"\"\"\"T",
+  "T~~~~###~~~~~X....,,.....T",
+  "T~~~~###~~B~~X....,,.....T",
+  "T~~X~~~~~~~~~XTTTTTTTTTTTT",
+  "T~~~~~~~~~~~~XTTTTTTTTTTTT",
+  "TTTTTTTTTTTTTTTTTTTTTTTTTT"
+ ],
+ "warps": [
+  {
+   "x": 25,
+   "y": 20,
+   "to": "madrid",
+   "tx": 1,
+   "ty": 8,
+   "dir": "right"
+  },
+  {
+   "x": 22,
+   "y": 15,
+   "to": "sede_galicia",
+   "tx": 4,
+   "ty": 6,
+   "dir": "up"
+  },
+  {
+   "x": 6,
+   "y": 6,
+   "to": "gym_galicia",
+   "tx": 4,
+   "ty": 12,
+   "dir": "up"
+  }
+ ],
+ "npcs": [
+  {
+   "id": "t_gal_1",
+   "x": 7,
+   "y": 33,
+   "sprite": "rival_myt",
+   "dir": "left",
+   "trainer": "t_gal_1",
+   "sight": 2
+  },
+  {
+   "id": "t_gal_2",
+   "x": 18,
+   "y": 17,
+   "sprite": "rival_pas",
+   "dir": "down",
+   "trainer": "t_gal_2",
+   "sight": 2
+  },
+  {
+   "id": "gal_npc1",
+   "x": 23,
+   "y": 19,
+   "sprite": "npc_d",
+   "dir": "left",
+   "event": "talk",
+   "text": [
+    "¿Que si llueve? Depende.",
+    "¿Que si el Parlamento está lejos? Depende. Está al noroeste, en el Pazo."
+   ]
+  },
+  {
+   "id": "gal_npc2",
+   "x": 15,
+   "y": 22,
+   "sprite": "npc_d",
+   "dir": "down",
+   "event": "talk",
+   "text": [
+    "Aquí los Regionalistas juegan en casa: pegan más fuerte y aguantan más.",
+    "Y la tabla de tipos no les afecta. Ni para bien ni para mal. Como el tiempo."
+   ]
+  },
+  {
+   "id": "gal_npc3",
+   "x": 4,
+   "y": 27,
+   "sprite": "npc_c",
+   "dir": "right",
+   "event": "talk",
+   "text": [
+    "Los Leguleyos lo recurren todo. Si te Imputan, tu afiliado a veces ni se mueve.",
+    "Ve a la Sede a que te lo arreglen: allí los abogados son baratos."
+   ]
+  }
+ ],
+ "signs": [
+  {
+   "x": 7,
+   "y": 8,
+   "text": "PARLAMENTO DO NOROESTE (en el Pazo). Líder: Dona Brétema. Especialista en Regionalistas."
+  },
+  {
+   "x": 17,
+   "y": 22,
+   "text": "ALDEA. Aquí la niebla nunca se va. Los políticos tampoco."
+  },
+  {
+   "x": 9,
+   "y": 27,
+   "text": "PUERTO. Prohibido mariscar sin carnet. Y sin pancarta."
+  }
+ ],
+ "items": [
+  {
+   "id": "gal_item1",
+   "x": 1,
+   "y": 26,
+   "item": "puesto_lista",
+   "count": 1
+  },
+  {
+   "id": "gal_item2",
+   "x": 12,
+   "y": 16,
+   "item": "mitin",
+   "count": 2
+  },
+  {
+   "id": "gal_item3",
+   "x": 24,
+   "y": 34,
+   "item": "puesto_lista",
+   "count": 1
+  }
+ ],
+ "areas": [
+  {
+   "name": "Pazo",
+   "rect": [
+    0,
+    0,
+    14,
+    15
+   ]
+  },
+  {
+   "name": "Aldea con niebla",
+   "rect": [
+    14,
+    0,
+    12,
+    40
+   ]
+  },
+  {
+   "name": "Puerto",
+   "rect": [
+    0,
+    25,
+    14,
+    15
+   ]
+  }
+ ],
+ "encounters": {
+  "rate": 0.11,
+  "table": [
+   [
+    18,
+    21,
+    24,
+    24
+   ],
+   [
+    20,
+    22,
+    25,
+    16
+   ],
+   [
+    21,
+    22,
+    25,
+    15
+   ],
+   [
+    22,
+    22,
+    25,
+    15
+   ],
+   [
+    23,
+    22,
+    25,
+    15
+   ],
+   [
+    24,
+    23,
+    26,
+    15
+   ]
+  ]
+ }
+}

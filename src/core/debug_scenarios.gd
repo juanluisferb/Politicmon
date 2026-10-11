@@ -87,5 +87,47 @@ static func run(name: String) -> void:
 					break
 			print("caught: ", caught, " party size ", GameState.party.size(), " caught dex ", GameState.caught.keys())
 			Router.get_tree().quit()
+		"overworld", "overworld_and", "overworld_gal", "garaje", "gym", "sede":
+			GameState.reset_new_game()
+			GameState.party = [Politician.create(1, 12)]
+			GameState.set_flag("has_starter")
+			var spots := {"overworld": ["madrid", Vector2i(11, 20)], "overworld_and": ["andalucia", Vector2i(12, 14)],
+				"overworld_gal": ["galicia", Vector2i(18, 20)], "garaje": ["madrid_garaje", Vector2i(3, 4)],
+				"gym": ["gym_madrid", Vector2i(4, 11)], "sede": ["sede_madrid", Vector2i(4, 4)]}
+			GameState.badges = ["madrid", "andalucia"]
+			Router.start_overworld(spots[name][0], spots[name][1], "up")
+		"pause":
+			GameState.reset_new_game()
+			GameState.party = [Politician.create(1, 12)]
+			GameState.set_flag("has_starter")
+			Router.start_overworld("madrid", Vector2i(11, 20), "down")
+			await Router.get_tree().create_timer(0.5).timeout
+			PauseMenu.open(Router.overworld)
+		"dex":
+			GameState.reset_new_game()
+			for i in range(1, 14):
+				GameState.mark_seen(i)
+				if i % 2 == 1:
+					GameState.mark_caught(i)
+			Router.set_screen(Node.new(), "menu")
+			Ui.push_modal(DexScreen.new())
+		"grass":
+			GameState.reset_new_game()
+			GameState.party = [Politician.create(1, 9), Politician.create(15, 8)]
+			GameState.set_flag("has_starter")
+			Router.start_overworld("madrid", Vector2i(4, 35), "left")
+		"trainer_walk":
+			GameState.reset_new_game()
+			GameState.party = [Politician.create(2, 16)]
+			GameState.set_flag("has_starter")
+			Router.start_overworld("madrid", Vector2i(11, 24), "up")
+		"gym_run":
+			GameState.reset_new_game()
+			GameState.party = [Politician.create(3, 30)]
+			GameState.set_flag("has_starter")
+			Router.start_overworld("gym_madrid", Vector2i(4, 4), "up")
+		"newgame":
+			GameState.reset_new_game("ALEX")
+			Router.start_overworld("madrid_garaje", Vector2i(4, 5), "up")
 		_:
 			push_error("unknown scenario " + name)

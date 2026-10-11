@@ -116,3 +116,10 @@ func evolve(p: Politician) -> void:
 	await Ui.say("¡Enhorabuena! ¡%s ha ascendido a %s!" % [old_name, p.display_name()])
 	await Ui.fade_out(0.2)
 	layer.queue_free()
+
+
+func show_victory() -> void:
+	await Ui.fade_out(0.6)
+	var v: Node = load("res://scenes/victory.tscn").instantiate()
+	set_screen(v, "victory")
+	await Ui.fade_in(0.6)

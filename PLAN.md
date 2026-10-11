@@ -59,7 +59,7 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 3. [x] Gráficos y fuente
 4. [x] Combate
 5. [x] Captura
-6. [ ] Overworld, mapas y encuentros
+6. [x] Overworld, mapas y encuentros
 7. [ ] Entrenadores y gimnasios
 8. [ ] Sonido
 9. [ ] Menús y guardado
@@ -117,3 +117,20 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 - Equipo máximo de 6; el resto va a la reserva de la Sede. Registro automático en la Politidex.
 - No se puede afiliar a militantes de otros partidos (combates contra entrenadores).
 - Tests de captura (probabilidad empírica, bonus de estado, legendario) y de objetos/inventario.
+
+### Fase 6 — hecho
+- `tools/gen_maps.py`: 11 mapas diseñados por código (plantillas de edificios) -> `data/maps/*.json`
+  + vistas previas en `docs/maps/`. Madrid (Ministerios, Gran Vía, Barrio de Tertulias),
+  Andalucía (Real de la Feria, Cortijo, Plaza del Ayuntamiento), Galicia (Pazo, Aldea con niebla,
+  Puerto), garaje inicial, 3 Sedes, 3 Parlamentos y el Hemiciclo Nacional.
+- `Overworld`: TileMapLayer construido en runtime desde el atlas, borde infinito, cámara centrada,
+  movimiento por casillas (correr con B), giro con toque corto, colisiones, puertas/warps con
+  condiciones (Escaños, banderas), transiciones entre zonas, nombres de área, hierba que tapa los pies.
+- Encuentros salvajes por zona (tablas con pesos y rangos de nivel), objetos en el suelo,
+  carteles, NPCs con diálogo, guardias que bloquean el paso hasta tener el Escaño necesario.
+- Eventos: intro + elección de inicial, Sede (curar, tienda, Secretaría/reserva), entrenadores con
+  línea de visión, líderes con Escaño y regalo, legendario.
+- Menú de pausa (Equipo, Politidex, Objetos, Ficha, Guardar, Opciones).
+- Guion de entradas para pruebas headless (`--inputs=up:3,a,...`).
+- Tests de mapas: formato, warps, objetos en casillas válidas, 3 rivales + 1 líder por zona,
+  tablas de encuentros por zona y alcanzabilidad (BFS).

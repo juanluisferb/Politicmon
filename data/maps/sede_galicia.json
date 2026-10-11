@@ -1,0 +1,95 @@
+{
+ "id": "sede_galicia",
+ "name": "Sede del Partido",
+ "zone": "galicia",
+ "music": "sede",
+ "width": 10,
+ "height": 8,
+ "border": " ",
+ "interior": true,
+ "legend": {
+  "#": "wall_int",
+  "=": "counter",
+  "B": "shelf",
+  "U": "urna",
+  "e": "mat",
+  "p": "plant",
+  "t": "tile_floor",
+  " ": "void"
+ },
+ "rows": [
+  "##########",
+  "#BttttttB#",
+  "#========#",
+  "#tttttttU#",
+  "#tttttttt#",
+  "#tttttttt#",
+  "#pttttttp#",
+  "####ee####"
+ ],
+ "warps": [
+  {
+   "x": 4,
+   "y": 7,
+   "to": "galicia",
+   "tx": 22,
+   "ty": 16,
+   "dir": "down"
+  },
+  {
+   "x": 5,
+   "y": 7,
+   "to": "galicia",
+   "tx": 22,
+   "ty": 16,
+   "dir": "down"
+  }
+ ],
+ "npcs": [
+  {
+   "id": "sede_galicia_nurse",
+   "x": 3,
+   "y": 1,
+   "sprite": "sede",
+   "dir": "down",
+   "event": "heal"
+  },
+  {
+   "id": "sede_galicia_clerk",
+   "x": 6,
+   "y": 1,
+   "sprite": "clerk",
+   "dir": "down",
+   "event": "shop",
+   "stock": [
+    "carnet_normal",
+    "mitin",
+    "factcheck",
+    "encuesta",
+    "carnet_premium",
+    "puesto_lista"
+   ]
+  },
+  {
+   "id": "sede_galicia_npc",
+   "x": 2,
+   "y": 5,
+   "sprite": "npc_c",
+   "dir": "right",
+   "event": "talk",
+   "text": [
+    "La urna de la esquina es la Secretaría de Organización: ahí gestionas a los afiliados que no caben en tu equipo."
+   ]
+  }
+ ],
+ "signs": [
+  {
+   "x": 8,
+   "y": 3,
+   "text": "PC"
+  }
+ ],
+ "items": [],
+ "areas": [],
+ "encounters": null
+}

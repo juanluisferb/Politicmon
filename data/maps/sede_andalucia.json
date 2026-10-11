@@ -1,0 +1,94 @@
+{
+ "id": "sede_andalucia",
+ "name": "Sede del Partido",
+ "zone": "andalucia",
+ "music": "sede",
+ "width": 10,
+ "height": 8,
+ "border": " ",
+ "interior": true,
+ "legend": {
+  "#": "wall_int",
+  "=": "counter",
+  "B": "shelf",
+  "U": "urna",
+  "e": "mat",
+  "p": "plant",
+  "t": "tile_floor",
+  " ": "void"
+ },
+ "rows": [
+  "##########",
+  "#BttttttB#",
+  "#========#",
+  "#tttttttU#",
+  "#tttttttt#",
+  "#tttttttt#",
+  "#pttttttp#",
+  "####ee####"
+ ],
+ "warps": [
+  {
+   "x": 4,
+   "y": 7,
+   "to": "andalucia",
+   "tx": 17,
+   "ty": 18,
+   "dir": "down"
+  },
+  {
+   "x": 5,
+   "y": 7,
+   "to": "andalucia",
+   "tx": 17,
+   "ty": 18,
+   "dir": "down"
+  }
+ ],
+ "npcs": [
+  {
+   "id": "sede_andalucia_nurse",
+   "x": 3,
+   "y": 1,
+   "sprite": "sede",
+   "dir": "down",
+   "event": "heal"
+  },
+  {
+   "id": "sede_andalucia_clerk",
+   "x": 6,
+   "y": 1,
+   "sprite": "clerk",
+   "dir": "down",
+   "event": "shop",
+   "stock": [
+    "carnet_normal",
+    "mitin",
+    "factcheck",
+    "encuesta",
+    "carnet_premium"
+   ]
+  },
+  {
+   "id": "sede_andalucia_npc",
+   "x": 2,
+   "y": 5,
+   "sprite": "npc_c",
+   "dir": "right",
+   "event": "talk",
+   "text": [
+    "La urna de la esquina es la Secretaría de Organización: ahí gestionas a los afiliados que no caben en tu equipo."
+   ]
+  }
+ ],
+ "signs": [
+  {
+   "x": 8,
+   "y": 3,
+   "text": "PC"
+  }
+ ],
+ "items": [],
+ "areas": [],
+ "encounters": null
+}

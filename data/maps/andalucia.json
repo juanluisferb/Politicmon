@@ -1,0 +1,281 @@
+{
+ "id": "andalucia",
+ "name": "Andalucía",
+ "zone": "andalucia",
+ "music": "andalucia",
+ "width": 26,
+ "height": 40,
+ "border": "T",
+ "interior": false,
+ "legend": {
+  "\"": "dry_grass",
+  ",": "cobble",
+  ".": "albero",
+  "<": "caseta2_top",
+  ">": "caseta2",
+  "A": "sur_roof",
+  "C": "sur_column",
+  "D": "cal_door",
+  "E": "sede_door",
+  "G": "sur_door",
+  "K": "caseta",
+  "O": "olivo",
+  "P": "sede_roof",
+  "Q": "sede_wall",
+  "R": "tile_roof",
+  "S": "sign_albero",
+  "T": "naranjo",
+  "W": "cal_wall",
+  "Y": "caseta_door",
+  "^": "caseta_top",
+  "a": "sur_roof_edge",
+  "c": "sur_emblem",
+  "f": "flowers",
+  "i": "fence_wood",
+  "k": "macetas",
+  "l": "farol",
+  "o": "fountain",
+  "p": "sede_roof_edge",
+  "q": "sede_sign",
+  "r": "tile_roof_edge",
+  "w": "cal_window"
+ },
+ "rows": [
+  "TTTTTTTTTTTT.TTTTTTTTTTTTT",
+  "Tk...........S..........kT",
+  "T.........l...l..........T",
+  "T.^^^^.<<<<.....^^^^.<<<<T",
+  "T.KYKK.>>>>.....KYKK.>>>>T",
+  "T.........l...l..........T",
+  "T........................T",
+  "T.........l...l..........T",
+  "T.<<<<.^^^^.....<<<<.^^^^T",
+  "T.>>>>.KYKK.....>>>>.KYKKT",
+  "T.........l...l..........T",
+  "T........................T",
+  "Tkkkk.kkkkk...kkkkk.kkkkkT",
+  "T.............,,,,,,,,,,,T",
+  "Tiiii.iiiii...,PPPPPP,,,,T",
+  "T.............,pppppp,kk,T",
+  "TO\"\"\"\"\"\"\"\"....,QqQQqQ,,,,T",
+  "T.\"\"\"\"\"\"\"\"O...,QQEQQQ,,,,T",
+  "T.\"\"\"\"\"\"\"\"....,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"\"\"....,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"\"\".S..T,,,,,,,,,TT",
+  "T.\"\"\"\"\"\"\"\"....,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"\"\"....,,,,,,,,,,,T",
+  "T....O........,,,,,k,,,,,T",
+  "T..O....O.....T,,,fof,,,TT",
+  "T.............,,,,,k,,,,,T",
+  "T.\"\"\"\"\"\"......,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"..O...,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"......T,,,,,,,,,TT",
+  "T.\"\"\"\"\"\"......,,S,,,,,,,,T",
+  "T.\"\"\"\"\"\"......,,,,,,,,,,,T",
+  "TO.......O....,,,AAAAAA,,T",
+  "T.......\"\"\"...,,,aaaaaa,,T",
+  "T.RRRRR.\"\"\"...,,,CcCCcC,,T",
+  "T.rrrrr.\"\"\"...,,lCCGCCCl,T",
+  "T.wWwWw.\"\"\"...,,,,,,,,,,,T",
+  "T.WWDWW.\"\"\"...,,,,,,,,,,,T",
+  "T.......\"\"\".TTTTTTTTTTTTTT",
+  "TTTTTTTTTTTTTTTTTTTTTTTTTT",
+  "TTTTTTTTTTTTTTTTTTTTTTTTTT"
+ ],
+ "warps": [
+  {
+   "x": 12,
+   "y": 0,
+   "to": "madrid",
+   "tx": 11,
+   "ty": 44,
+   "dir": "up"
+  },
+  {
+   "x": 17,
+   "y": 17,
+   "to": "sede_andalucia",
+   "tx": 4,
+   "ty": 6,
+   "dir": "up"
+  },
+  {
+   "x": 19,
+   "y": 34,
+   "to": "gym_andalucia",
+   "tx": 4,
+   "ty": 12,
+   "dir": "up"
+  }
+ ],
+ "npcs": [
+  {
+   "id": "t_and_1",
+   "x": 12,
+   "y": 9,
+   "sprite": "rival_pas",
+   "dir": "down",
+   "trainer": "t_and_1",
+   "sight": 3
+  },
+  {
+   "id": "t_and_2",
+   "x": 5,
+   "y": 25,
+   "sprite": "rival_asc",
+   "dir": "right",
+   "trainer": "t_and_2",
+   "sight": 4
+  },
+  {
+   "id": "and_npc1",
+   "x": 18,
+   "y": 2,
+   "sprite": "npc_c",
+   "dir": "down",
+   "event": "talk",
+   "text": [
+    "¡Bienvenido a la feria! Aquí hasta los Barones bailan sevillanas.",
+    "Truco: los Activistas tumban a los Barones, y los Lobistas también. Lo sé porque me lo dijo un Lobista."
+   ]
+  },
+  {
+   "id": "and_npc2",
+   "x": 20,
+   "y": 27,
+   "sprite": "npc_a",
+   "dir": "up",
+   "event": "talk",
+   "text": [
+    "Don Gumersindo lleva tantos años en el Parlamento que su sillón tiene su forma.",
+    "Sus afiliados son Barones de toda la vida. Los Burócratas les hacen cosquillas."
+   ]
+  },
+  {
+   "id": "and_npc3",
+   "x": 6,
+   "y": 32,
+   "sprite": "npc_c",
+   "dir": "down",
+   "event": "talk",
+   "text": [
+    "En el campo hay Jornaleros Indignados. Si les das un Carnet... a lo mejor se indignan contigo."
+   ]
+  }
+ ],
+ "signs": [
+  {
+   "x": 4,
+   "y": 36,
+   "text": "La puerta del cortijo está cerrada. Dentro se oye: «¡Que no, que este año tampoco hay subvención!»"
+  },
+  {
+   "x": 13,
+   "y": 1,
+   "text": "REAL DE LA FERIA. Cada caseta, un partido; cada partido, una caseta."
+  },
+  {
+   "x": 11,
+   "y": 20,
+   "text": "EL CORTIJO. Prohibido el paso a coches oficiales. Los jornaleros no muerden (casi nunca)."
+  },
+  {
+   "x": 16,
+   "y": 29,
+   "text": "PARLAMENTO DEL SUR. Líder: Don Gumersindo de la Vara. Especialista en Barones."
+  }
+ ],
+ "items": [
+  {
+   "id": "and_item1",
+   "x": 9,
+   "y": 36,
+   "item": "puesto_lista",
+   "count": 1
+  },
+  {
+   "id": "and_item2",
+   "x": 23,
+   "y": 6,
+   "item": "factcheck",
+   "count": 2
+  },
+  {
+   "id": "and_item3",
+   "x": 2,
+   "y": 21,
+   "item": "carnet_premium",
+   "count": 2
+  }
+ ],
+ "areas": [
+  {
+   "name": "Real de la Feria",
+   "rect": [
+    0,
+    0,
+    26,
+    13
+   ]
+  },
+  {
+   "name": "Cortijo",
+   "rect": [
+    0,
+    13,
+    12,
+    27
+   ]
+  },
+  {
+   "name": "Plaza del Ayuntamiento",
+   "rect": [
+    12,
+    13,
+    14,
+    27
+   ]
+  }
+ ],
+ "encounters": {
+  "rate": 0.11,
+  "table": [
+   [
+    10,
+    12,
+    15,
+    24
+   ],
+   [
+    15,
+    12,
+    15,
+    24
+   ],
+   [
+    13,
+    13,
+    16,
+    18
+   ],
+   [
+    17,
+    13,
+    16,
+    14
+   ],
+   [
+    11,
+    15,
+    17,
+    10
+   ],
+   [
+    14,
+    15,
+    17,
+    10
+   ]
+  ]
+ }
+}
