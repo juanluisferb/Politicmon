@@ -1,0 +1,9 @@
+[gd_resource type="Theme" load_steps=2 format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/pixel8.fnt" id="1_font"]
+
+[resource]
+default_font = ExtResource("1_font")
+default_font_size = 8
+Label/colors/font_color = Color(0.0627, 0.0941, 0.1255, 1)
+Label/constants/line_spacing = 2

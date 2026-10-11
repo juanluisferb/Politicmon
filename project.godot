@@ -1,0 +1,55 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="Politicmon"
+config/description="Afilia políticos ficticios y conquista los Parlamentos."
+config/version="0.1.0"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
+boot_splash/bg_color=Color(0.97, 0.96, 0.9, 1)
+boot_splash/show_image=false
+config/icon="res://assets/ui/icon.png"
+
+[autoload]
+
+ScreenScaler="*res://src/core/screen_scaler.gd"
+InputSetup="*res://src/core/input_setup.gd"
+GameData="*res://src/core/game_data.gd"
+GameState="*res://src/core/game_state.gd"
+SaveSystem="*res://src/save/save_system.gd"
+Audio="*res://src/audio/audio_manager.gd"
+Router="*res://src/core/router.gd"
+Ui="*res://src/ui/ui_root.gd"
+TouchControls="*res://src/ui/touch_controls.gd"
+
+[display]
+
+window/size/viewport_width=180
+window/size/viewport_height=320
+window/size/window_width_override=540
+window/size/window_height_override=960
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+window/stretch/scale_mode="integer"
+window/handheld/orientation=1
+window/energy_saving/keep_screen_on=true
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.07, 0.07, 0.1, 1)
+2d/snap/snap_2d_transforms_to_pixel=true
+2d/snap/snap_2d_vertices_to_pixel=true
+
+[gui]
+
+theme/custom="res://assets/ui/theme.tres"
