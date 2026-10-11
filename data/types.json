@@ -1,0 +1,29 @@
+{
+  "_doc": "chart[attacker][defender] = multiplier. Missing pairs are x1. regional_bonus applies to Regionalista politicians fighting in their home zone (damage dealt x bonus, damage received / bonus).",
+  "regional_bonus": 1.3,
+  "regional_type": "regionalista",
+  "types": {
+    "populista":    {"name": "Populista",    "color": "#d83828"},
+    "tecnocrata":   {"name": "Tecnócrata",   "color": "#4c7cc0"},
+    "mediatico":    {"name": "Mediático",    "color": "#e8b400"},
+    "burocrata":    {"name": "Burócrata",    "color": "#a89c80"},
+    "activista":    {"name": "Activista",    "color": "#38a040"},
+    "baron":        {"name": "Barón",        "color": "#8c2034"},
+    "lobista":      {"name": "Lobista",      "color": "#484848"},
+    "leguleyo":     {"name": "Leguleyo",     "color": "#7c44a8"},
+    "tuitero":      {"name": "Tuitero",      "color": "#58b8ec"},
+    "regionalista": {"name": "Regionalista", "color": "#203c78"}
+  },
+  "chart": {
+    "populista":  {"tecnocrata": 2.0, "mediatico": 0.5, "leguleyo": 0.5},
+    "tecnocrata": {"mediatico": 2.0, "populista": 0.5, "tuitero": 0.5},
+    "mediatico":  {"populista": 2.0, "tecnocrata": 0.5, "tuitero": 0.5},
+    "burocrata":  {"activista": 2.0, "leguleyo": 2.0, "baron": 0.5, "lobista": 0.5},
+    "activista":  {"baron": 2.0, "lobista": 2.0, "burocrata": 0.5},
+    "baron":      {"burocrata": 2.0, "activista": 0.5, "lobista": 0.5},
+    "lobista":    {"baron": 2.0, "burocrata": 2.0, "leguleyo": 0.5, "activista": 0.5},
+    "leguleyo":   {"lobista": 2.0, "populista": 2.0, "tuitero": 2.0, "burocrata": 0.5},
+    "tuitero":    {"mediatico": 2.0, "tecnocrata": 2.0, "leguleyo": 0.5},
+    "regionalista": {}
+  }
+}

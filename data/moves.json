@@ -1,0 +1,52 @@
+{
+  "_doc": "category: fisico (Oratoria vs Aguante), especial (Dialectica vs Templanza), estado. effect.kind: status | stat | heal | campaign | drain | recoil.",
+  "promesa_imposible": {"name": "Promesa Imposible", "type": "populista", "category": "especial", "power": 60, "accuracy": 100, "pp": 25, "desc": "Promete la luna. Nadie la verá, pero duele."},
+  "bano_de_masas": {"name": "Baño de Masas", "type": "populista", "category": "fisico", "power": 80, "accuracy": 95, "pp": 15, "desc": "Se lanza entre el público y arrolla al rival."},
+  "discurso_encendido": {"name": "Discurso Encendido", "type": "populista", "category": "especial", "power": 95, "accuracy": 85, "pp": 10, "effect": {"kind": "status", "status": "escandalo", "chance": 20, "target": "enemy"}, "desc": "Tanto fuego que a veces provoca un escándalo."},
+  "arranque_campana": {"name": "Arranque de Campaña", "type": "populista", "category": "estado", "power": 0, "accuracy": 100, "pp": 15, "effect": {"kind": "campaign", "turns": 5}, "desc": "Entra En Campaña: sube mucho la Agilidad unos turnos."},
+
+  "informe_300": {"name": "Informe de 300 Páginas", "type": "tecnocrata", "category": "especial", "power": 70, "accuracy": 100, "pp": 20, "desc": "Nadie lo lee, pero pesa muchísimo."},
+  "powerpoint_letal": {"name": "PowerPoint Letal", "type": "tecnocrata", "category": "especial", "power": 95, "accuracy": 85, "pp": 10, "desc": "Ochenta diapositivas sin una sola imagen."},
+  "recorte_presupuestario": {"name": "Recorte Presupuestario", "type": "tecnocrata", "category": "fisico", "power": 55, "accuracy": 100, "pp": 20, "effect": {"kind": "stat", "target": "enemy", "stat": "aguante", "stages": -1, "chance": 40}, "desc": "Tijeretazo que puede bajar el Aguante del rival."},
+
+  "titular_viral": {"name": "Titular Viral", "type": "mediatico", "category": "especial", "power": 65, "accuracy": 100, "pp": 20, "desc": "Cinco palabras y un signo de exclamación."},
+  "rueda_de_prensa": {"name": "Rueda de Prensa", "type": "mediatico", "category": "fisico", "power": 45, "accuracy": 100, "pp": 30, "desc": "Rueda sin preguntas que atropella al rival."},
+  "filtracion": {"name": "Filtración", "type": "mediatico", "category": "especial", "power": 85, "accuracy": 90, "pp": 10, "effect": {"kind": "status", "status": "escandalo", "chance": 30, "target": "enemy"}, "desc": "Una fuente anónima. Puede causar Escándalo."},
+  "foto_de_familia": {"name": "Foto de Familia", "type": "mediatico", "category": "estado", "power": 0, "accuracy": 100, "pp": 20, "effect": {"kind": "stat", "target": "self", "stat": "dialectica", "stages": 1, "chance": 100}, "desc": "Posa y sale favorecido. Sube la Dialéctica."},
+
+  "vuelva_usted_manana": {"name": "Vuelva Usted Mañana", "type": "burocrata", "category": "estado", "power": 0, "accuracy": 100, "pp": 20, "effect": {"kind": "stat", "target": "enemy", "stat": "agilidad", "stages": -2, "chance": 100}, "desc": "Falta un papel. Baja mucho la Agilidad del rival."},
+  "sello_oficial": {"name": "Sello Oficial", "type": "burocrata", "category": "fisico", "power": 50, "accuracy": 100, "pp": 25, "desc": "¡PLAF! Compulsado y registrado."},
+  "expediente_infinito": {"name": "Expediente Infinito", "type": "burocrata", "category": "especial", "power": 85, "accuracy": 90, "pp": 10, "desc": "Una montaña de folios que cae sobre el rival."},
+  "silencio_administrativo": {"name": "Silencio Administrativo", "type": "burocrata", "category": "estado", "power": 0, "accuracy": 100, "pp": 15, "effect": {"kind": "stat", "target": "self", "stat": "aguante", "stages": 2, "chance": 100}, "desc": "No contesta a nada. Sube mucho el Aguante."},
+
+  "pancarta": {"name": "Pancarta", "type": "activista", "category": "fisico", "power": 55, "accuracy": 100, "pp": 25, "desc": "Golpe con una pancarta pintada a mano."},
+  "huelga_general": {"name": "Huelga General", "type": "activista", "category": "fisico", "power": 95, "accuracy": 85, "pp": 10, "desc": "Todo se para. Sobre todo el rival."},
+  "recogida_de_firmas": {"name": "Recogida de Firmas", "type": "activista", "category": "especial", "power": 70, "accuracy": 100, "pp": 15, "desc": "Miles de firmas lanzadas a la vez."},
+  "sentada": {"name": "Sentada", "type": "activista", "category": "estado", "power": 0, "accuracy": 100, "pp": 10, "effect": {"kind": "heal", "fraction": 0.5}, "desc": "Se sienta, descansa y recupera la mitad de su Carisma."},
+
+  "dedazo": {"name": "Dedazo", "type": "baron", "category": "fisico", "power": 60, "accuracy": 100, "pp": 25, "desc": "Señala al rival con autoridad incontestable."},
+  "vara_de_mando": {"name": "Vara de Mando", "type": "baron", "category": "fisico", "power": 90, "accuracy": 90, "pp": 10, "desc": "Un golpe de vara muy institucional."},
+  "clientelismo": {"name": "Clientelismo", "type": "baron", "category": "especial", "power": 65, "accuracy": 100, "pp": 15, "effect": {"kind": "drain", "fraction": 0.5}, "desc": "Reparte favores y recupera parte del daño."},
+  "inauguracion": {"name": "Inauguración", "type": "baron", "category": "estado", "power": 0, "accuracy": 100, "pp": 15, "effect": {"kind": "stat", "target": "self", "stat": "oratoria", "stages": 2, "chance": 100}, "desc": "Corta una cinta. Sube mucho la Oratoria."},
+
+  "puerta_giratoria": {"name": "Puerta Giratoria", "type": "lobista", "category": "fisico", "power": 75, "accuracy": 100, "pp": 15, "desc": "Entra, sale, vuelve a entrar... y golpea."},
+  "maletin": {"name": "Maletín", "type": "lobista", "category": "fisico", "power": 95, "accuracy": 85, "pp": 10, "desc": "Un maletín de piel muy, muy lleno."},
+  "influencia": {"name": "Influencia", "type": "lobista", "category": "especial", "power": 60, "accuracy": 100, "pp": 20, "effect": {"kind": "stat", "target": "enemy", "stat": "oratoria", "stages": -1, "chance": 50}, "desc": "Una llamada discreta. Puede bajar la Oratoria."},
+
+  "recurso_constitucional": {"name": "Recurso al Constitucional", "type": "leguleyo", "category": "especial", "power": 85, "accuracy": 95, "pp": 10, "desc": "Lo recurre todo, hasta el desayuno."},
+  "querella": {"name": "Querella", "type": "leguleyo", "category": "especial", "power": 55, "accuracy": 100, "pp": 20, "effect": {"kind": "status", "status": "imputado", "chance": 30, "target": "enemy"}, "desc": "Puede dejar Imputado al rival."},
+  "letra_pequena": {"name": "Letra Pequeña", "type": "leguleyo", "category": "fisico", "power": 50, "accuracy": 100, "pp": 25, "effect": {"kind": "stat", "target": "enemy", "stat": "templanza", "stages": -1, "chance": 30}, "desc": "Cláusula traicionera. Puede bajar la Templanza."},
+  "auto_de_imputacion": {"name": "Auto de Imputación", "type": "leguleyo", "category": "estado", "power": 0, "accuracy": 85, "pp": 15, "effect": {"kind": "status", "status": "imputado", "chance": 100, "target": "enemy"}, "desc": "Deja al rival Imputado sin remedio."},
+
+  "hilo_polemico": {"name": "Hilo Polémico", "type": "tuitero", "category": "especial", "power": 65, "accuracy": 100, "pp": 20, "effect": {"kind": "status", "status": "escandalo", "chance": 10, "target": "enemy"}, "desc": "1/47. Puede provocar Escándalo."},
+  "zasca": {"name": "Zasca", "type": "tuitero", "category": "fisico", "power": 70, "accuracy": 100, "pp": 15, "desc": "Respuesta lapidaria con muchos retuits."},
+  "ratio": {"name": "Ratio", "type": "tuitero", "category": "especial", "power": 95, "accuracy": 85, "pp": 10, "desc": "Más respuestas que me gusta. Humillante."},
+  "bloqueo": {"name": "Bloqueo", "type": "tuitero", "category": "estado", "power": 0, "accuracy": 100, "pp": 20, "effect": {"kind": "stat", "target": "enemy", "stat": "dialectica", "stages": -2, "chance": 100}, "desc": "Bloquea al rival. Baja mucho su Dialéctica."},
+
+  "hecho_diferencial": {"name": "Hecho Diferencial", "type": "regionalista", "category": "especial", "power": 75, "accuracy": 100, "pp": 15, "desc": "Recuerda al rival que aquí las cosas son distintas."},
+  "depende": {"name": "Depende", "type": "regionalista", "category": "estado", "power": 0, "accuracy": 100, "pp": 15, "effect": {"kind": "stat", "target": "self", "stat": "templanza", "stages": 2, "chance": 100}, "desc": "¿Sube o baja? Depende. Sube mucho la Templanza."},
+  "morrina": {"name": "Morriña", "type": "regionalista", "category": "especial", "power": 60, "accuracy": 100, "pp": 15, "effect": {"kind": "drain", "fraction": 0.5}, "desc": "Nostalgia contagiosa que devuelve algo de Carisma."},
+  "fuero_propio": {"name": "Fuero Propio", "type": "regionalista", "category": "fisico", "power": 90, "accuracy": 90, "pp": 10, "desc": "Embestida amparada en normas de toda la vida."},
+
+  "balbuceo": {"name": "Balbuceo", "type": "", "category": "fisico", "power": 40, "accuracy": 100, "pp": 1, "effect": {"kind": "recoil", "fraction": 0.25}, "desc": "Sin argumentos. Daña también al usuario."}
+}

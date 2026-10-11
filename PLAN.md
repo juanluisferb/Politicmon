@@ -55,7 +55,7 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 ## Fases
 
 1. [x] Proyecto y presentación a pantalla completa
-2. [ ] Datos y tabla de tipos
+2. [x] Datos y tabla de tipos
 3. [ ] Gráficos y fuente
 4. [ ] Combate
 5. [ ] Captura
@@ -76,3 +76,12 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 - Herramientas: `tools/screenshot.sh` (capturas reales con Xvfb), `tools/run_tests.sh`.
 - Tests: escalado entero sin bandas en 1080x1920, 1170x2532, 720x1600, 1536x2048.
 
+
+### Fase 2 — hecho
+- `data/types.json` (10 tipos, tabla completa en datos, bonus regional x1.3),
+  `moves.json` (38 movimientos + Balbuceo), `politicians.json` (25, generado desde
+  `tools/data_politicians.py`), `items.json`, `parties.json`, `trainers.json` (9 rivales + 3 líderes),
+  `palettes.json` (paletas de 4 colores para sprites, tiles, objetos y UI).
+- `GameData` (carga JSON), `Politician` (stats, niveles, movimientos, evolución, serialización),
+  `BattleLogic` (daño, tipos, STAB, críticos, regionalismo, estados, captura, experiencia, IA).
+- Tests: tabla de tipos, daño, captura, experiencia/evolución (36 tests en verde).

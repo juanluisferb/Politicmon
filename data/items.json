@@ -1,0 +1,9 @@
+{
+  "_doc": "kind: carnet (catch_mult), heal (amount), cure (status), scan. use: battle | field | both.",
+  "carnet_normal":  {"name": "Carnet Normal", "kind": "carnet", "catch_mult": 1.0, "price": 200, "use": "battle", "icon": "carnet", "desc": "Carnet de afiliación de toda la vida."},
+  "carnet_premium": {"name": "Carnet Premium", "kind": "carnet", "catch_mult": 1.5, "price": 600, "use": "battle", "icon": "premium", "desc": "Incluye cuota reducida y taza. Afilia mejor."},
+  "puesto_lista":   {"name": "Puesto en la Lista", "kind": "carnet", "catch_mult": 2.5, "price": 1200, "use": "battle", "icon": "lista", "desc": "Nadie se resiste a un puesto de salida."},
+  "encuesta":       {"name": "Encuesta", "kind": "scan", "price": 100, "use": "battle", "icon": "encuesta", "desc": "Muestra las estadísticas del rival. Margen de error: el que sea."},
+  "mitin":          {"name": "Mitin", "kind": "heal", "amount": 50, "price": 300, "use": "both", "icon": "mitin", "desc": "Un baño de aplausos. Recupera 50 PS de Carisma."},
+  "factcheck":      {"name": "Fact-check", "kind": "cure", "status": "escandalo", "price": 250, "use": "both", "icon": "factcheck", "desc": "Desmiente el bulo. Cura el Escándalo."}
+}

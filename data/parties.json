@@ -1,0 +1,7 @@
+{
+  "jugador": {"name": "Partido Nuevo", "short": "PN", "palette": "player", "colors": ["#a8a090", "#303030"]},
+  "ppi": {"name": "Partido del Progreso Infinito", "short": "PPI", "palette": "party_ppi", "colors": ["#30b0a8", "#283840"], "motto": "¡Progreso hoy, mañana y pasado!"},
+  "asc": {"name": "Alianza por el Sentido Común", "short": "ASC", "palette": "party_asc", "colors": ["#8c5c38", "#f8e8d0"], "motto": "Lo normal, pero más."},
+  "myt": {"name": "Movimiento Ya Toca", "short": "MYT", "palette": "party_myt", "colors": ["#c8a030", "#202020"], "motto": "¡Ya toca! ¿El qué? Ya toca."},
+  "pas": {"name": "Plataforma del Ahora Sí", "short": "PAS", "palette": "party_pas", "colors": ["#c8b888", "#384020"], "motto": "Antes no, pero ahora sí."}
+}

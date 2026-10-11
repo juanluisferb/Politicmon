@@ -1,0 +1,973 @@
+{
+ "_doc": "Stats: carisma=PS, oratoria=ataque, aguante=defensa, dialectica=at. especial, templanza=def. especial, agilidad=velocidad.",
+ "1": {
+  "key": "becario",
+  "name": "Becario de Gabinete",
+  "types": [
+   "mediatico"
+  ],
+  "zone": "madrid",
+  "stats": {
+   "carisma": 45,
+   "oratoria": 40,
+   "aguante": 40,
+   "dialectica": 50,
+   "templanza": 45,
+   "agilidad": 55
+  },
+  "catch_rate": 200,
+  "base_exp": 55,
+  "palette": "mediatico",
+  "moves": [
+   [
+    "rueda_de_prensa",
+    1
+   ],
+   [
+    "foto_de_familia",
+    3
+   ],
+   [
+    "titular_viral",
+    8
+   ],
+   [
+    "filtracion",
+    12
+   ]
+  ],
+  "desc": "Lleva la carpeta abrazada como si fuera un salvavidas. Hace fotocopias de las fotocopias por si acaso.",
+  "evolves_to": 2,
+  "evolve_level": 14
+ },
+ "2": {
+  "key": "asesor",
+  "name": "Asesor Áulico",
+  "types": [
+   "mediatico"
+  ],
+  "zone": "madrid",
+  "stats": {
+   "carisma": 60,
+   "oratoria": 55,
+   "aguante": 55,
+   "dialectica": 70,
+   "templanza": 60,
+   "agilidad": 75
+  },
+  "catch_rate": 90,
+  "base_exp": 120,
+  "palette": "mediatico",
+  "moves": [
+   [
+    "rueda_de_prensa",
+    1
+   ],
+   [
+    "titular_viral",
+    1
+   ],
+   [
+    "filtracion",
+    14
+   ],
+   [
+    "hilo_polemico",
+    20
+   ]
+  ],
+  "desc": "Habla por dos móviles a la vez y nunca cuelga ninguno. Su sonrisa ya ha sido testada en tres encuestas.",
+  "evolves_to": 3,
+  "evolve_level": 30
+ },
+ "3": {
+  "key": "jefe_gabinete",
+  "name": "Jefe de Gabinete",
+  "types": [
+   "mediatico"
+  ],
+  "zone": "madrid",
+  "stats": {
+   "carisma": 80,
+   "oratoria": 70,
+   "aguante": 75,
+   "dialectica": 100,
+   "templanza": 85,
+   "agilidad": 95
+  },
+  "catch_rate": 45,
+  "base_exp": 200,
+  "palette": "mediatico",
+  "moves": [
+   [
+    "titular_viral",
+    1
+   ],
+   [
+    "filtracion",
+    1
+   ],
+   [
+    "hilo_polemico",
+    1
+   ],
+   [
+    "powerpoint_letal",
+    34
+   ]
+  ],
+  "desc": "Controla la agenda, el relato y el mando del aire acondicionado. Sus gafas oscuras no se quita ni en el cine."
+ },
+ "4": {
+  "key": "tertulianete",
+  "name": "Tertulianete",
+  "types": [
+   "mediatico",
+   "tuitero"
+  ],
+  "zone": "madrid",
+  "stats": {
+   "carisma": 50,
+   "oratoria": 35,
+   "aguante": 35,
+   "dialectica": 55,
+   "templanza": 40,
+   "agilidad": 60
+  },
+  "catch_rate": 190,
+  "base_exp": 60,
+  "palette": "mediatico",
+  "moves": [
+   [
+    "rueda_de_prensa",
+    1
+   ],
+   [
+    "hilo_polemico",
+    5
+   ],
+   [
+    "titular_viral",
+    10
+   ],
+   [
+    "zasca",
+    16
+   ]
+  ],
+  "desc": "Opina de todo con un micro de juguete. Aún no ha terminado su primera frase, empezada hace dos temporadas.",
+  "evolves_to": 5,
+  "evolve_level": 22
+ },
+ "5": {
+  "key": "todologo",
+  "name": "El Todólogo",
+  "types": [
+   "mediatico",
+   "tuitero"
+  ],
+  "zone": "madrid",
+  "stats": {
+   "carisma": 85,
+   "oratoria": 55,
+   "aguante": 65,
+   "dialectica": 95,
+   "templanza": 75,
+   "agilidad": 85
+  },
+  "catch_rate": 60,
+  "base_exp": 175,
+  "palette": "mediatico",
+  "moves": [
+   [
+    "titular_viral",
+    1
+   ],
+   [
+    "zasca",
+    1
+   ],
+   [
+    "hilo_polemico",
+    1
+   ],
+   [
+    "ratio",
+    26
+   ]
+  ],
+  "desc": "Experto en volcanes por la mañana y en fútbol por la tarde. Trae su propio atril por si le faltan tribunas."
+ },
+ "6": {
+  "key": "infografia",
+  "name": "Doña Infografía",
+  "types": [
+   "tecnocrata"
+  ],
+  "zone": "madrid",
+  "stats": {
+   "carisma": 60,
+   "oratoria": 40,
+   "aguante": 55,
+   "dialectica": 85,
+   "templanza": 75,
+   "agilidad": 60
+  },
+  "catch_rate": 120,
+  "base_exp": 130,
+  "palette": "tecnocrata",
+  "moves": [
+   [
+    "recorte_presupuestario",
+    1
+   ],
+   [
+    "informe_300",
+    1
+   ],
+   [
+    "foto_de_familia",
+    8
+   ],
+   [
+    "powerpoint_letal",
+    18
+   ]
+  ],
+  "desc": "Convierte cualquier conversación en un gráfico de barras. Su puntero láser no tiene botón de apagado."
+ },
+ "7": {
+  "key": "puertagiratoria",
+  "name": "El Puertagiratoria",
+  "types": [
+   "lobista"
+  ],
+  "zone": "madrid",
+  "stats": {
+   "carisma": 70,
+   "oratoria": 75,
+   "aguante": 70,
+   "dialectica": 60,
+   "templanza": 65,
+   "agilidad": 55
+  },
+  "catch_rate": 90,
+  "base_exp": 140,
+  "palette": "lobista",
+  "moves": [
+   [
+    "influencia",
+    1
+   ],
+   [
+    "puerta_giratoria",
+    1
+   ],
+   [
+    "inauguracion",
+    10
+   ],
+   [
+    "maletin",
+    18
+   ]
+  ],
+  "desc": "Nadie sabe si entra o si sale. Su reloj cuesta más que un ministerio pequeño."
+ },
+ "8": {
+  "key": "trending",
+  "name": "Trending Topic",
+  "types": [
+   "tuitero"
+  ],
+  "zone": "madrid",
+  "stats": {
+   "carisma": 45,
+   "oratoria": 50,
+   "aguante": 35,
+   "dialectica": 60,
+   "templanza": 40,
+   "agilidad": 80
+  },
+  "catch_rate": 170,
+  "base_exp": 80,
+  "palette": "tuitero",
+  "moves": [
+   [
+    "hilo_polemico",
+    1
+   ],
+   [
+    "zasca",
+    1
+   ],
+   [
+    "bloqueo",
+    8
+   ],
+   [
+    "ratio",
+    20
+   ]
+  ],
+  "desc": "Vive pegado a un móvil más grande que él. Dura en lo más alto lo mismo que un yogur fuera de la nevera."
+ },
+ "9": {
+  "key": "ventanilla",
+  "name": "Ventanilla Cerrada",
+  "types": [
+   "burocrata"
+  ],
+  "zone": "madrid",
+  "stats": {
+   "carisma": 70,
+   "oratoria": 45,
+   "aguante": 85,
+   "dialectica": 40,
+   "templanza": 70,
+   "agilidad": 25
+  },
+  "catch_rate": 150,
+  "base_exp": 100,
+  "palette": "burocrata",
+  "moves": [
+   [
+    "sello_oficial",
+    1
+   ],
+   [
+    "vuelva_usted_manana",
+    1
+   ],
+   [
+    "silencio_administrativo",
+    8
+   ],
+   [
+    "expediente_infinito",
+    16
+   ]
+  ],
+  "desc": "Su horario de atención es de 9:00 a 9:05 los martes alternos. Su café, eso sí, siempre está caliente."
+ },
+ "10": {
+  "key": "pregonero",
+  "name": "Pregonero",
+  "types": [
+   "baron"
+  ],
+  "zone": "andalucia",
+  "stats": {
+   "carisma": 50,
+   "oratoria": 55,
+   "aguante": 45,
+   "dialectica": 35,
+   "templanza": 40,
+   "agilidad": 45
+  },
+  "catch_rate": 200,
+  "base_exp": 60,
+  "palette": "baron",
+  "moves": [
+   [
+    "dedazo",
+    1
+   ],
+   [
+    "arranque_campana",
+    3
+   ],
+   [
+    "promesa_imposible",
+    8
+   ],
+   [
+    "inauguracion",
+    12
+   ]
+  ],
+  "desc": "Anuncia la feria, las obras y el tiempo con la misma bocina y la misma alegría contagiosa.",
+  "evolves_to": 11,
+  "evolve_level": 16
+ },
+ "11": {
+  "key": "alcalde_feria",
+  "name": "Alcalde de Feria",
+  "types": [
+   "baron"
+  ],
+  "zone": "andalucia",
+  "stats": {
+   "carisma": 70,
+   "oratoria": 75,
+   "aguante": 65,
+   "dialectica": 50,
+   "templanza": 55,
+   "agilidad": 60
+  },
+  "catch_rate": 90,
+  "base_exp": 125,
+  "palette": "baron",
+  "moves": [
+   [
+    "dedazo",
+    1
+   ],
+   [
+    "inauguracion",
+    1
+   ],
+   [
+    "clientelismo",
+    16
+   ],
+   [
+    "vara_de_mando",
+    24
+   ]
+  ],
+  "desc": "No hay caseta en la que no le inviten. Lleva un clavel en la solapa que cambia cada hora.",
+  "evolves_to": 12,
+  "evolve_level": 30
+ },
+ "12": {
+  "key": "baron_sur",
+  "name": "Barón del Sur",
+  "types": [
+   "baron"
+  ],
+  "zone": "andalucia",
+  "stats": {
+   "carisma": 100,
+   "oratoria": 100,
+   "aguante": 90,
+   "dialectica": 65,
+   "templanza": 80,
+   "agilidad": 65
+  },
+  "catch_rate": 45,
+  "base_exp": 205,
+  "palette": "baron",
+  "moves": [
+   [
+    "dedazo",
+    1
+   ],
+   [
+    "clientelismo",
+    1
+   ],
+   [
+    "inauguracion",
+    1
+   ],
+   [
+    "vara_de_mando",
+    1
+   ]
+  ],
+  "desc": "Patriarca de la comarca. Su capa granate tiene más años que la mitad del pueblo."
+ },
+ "13": {
+  "key": "pico_oro",
+  "name": "El Pico de Oro",
+  "types": [
+   "populista"
+  ],
+  "zone": "andalucia",
+  "stats": {
+   "carisma": 65,
+   "oratoria": 55,
+   "aguante": 50,
+   "dialectica": 80,
+   "templanza": 55,
+   "agilidad": 70
+  },
+  "catch_rate": 110,
+  "base_exp": 130,
+  "palette": "populista",
+  "moves": [
+   [
+    "promesa_imposible",
+    1
+   ],
+   [
+    "arranque_campana",
+    1
+   ],
+   [
+    "bano_de_masas",
+    14
+   ],
+   [
+    "discurso_encendido",
+    22
+   ]
+  ],
+  "desc": "Cuando abre la boca saltan chispas. Promete un aeropuerto en cada pueblo, incluso en los que no tienen pueblo."
+ },
+ "14": {
+  "key": "mitinera",
+  "name": "La Mitinera",
+  "types": [
+   "populista",
+   "mediatico"
+  ],
+  "zone": "andalucia",
+  "stats": {
+   "carisma": 70,
+   "oratoria": 60,
+   "aguante": 60,
+   "dialectica": 85,
+   "templanza": 65,
+   "agilidad": 75
+  },
+  "catch_rate": 75,
+  "base_exp": 155,
+  "palette": "mitinera",
+  "moves": [
+   [
+    "promesa_imposible",
+    1
+   ],
+   [
+    "titular_viral",
+    1
+   ],
+   [
+    "bano_de_masas",
+    1
+   ],
+   [
+    "discurso_encendido",
+    20
+   ]
+  ],
+  "desc": "Lleva su propio escenario plegable y un cañón de confeti. Su megáfono se oye desde la provincia de al lado."
+ },
+ "15": {
+  "key": "jornalero",
+  "name": "Jornalero Indignado",
+  "types": [
+   "activista"
+  ],
+  "zone": "andalucia",
+  "stats": {
+   "carisma": 55,
+   "oratoria": 60,
+   "aguante": 50,
+   "dialectica": 30,
+   "templanza": 45,
+   "agilidad": 45
+  },
+  "catch_rate": 180,
+  "base_exp": 65,
+  "palette": "activista",
+  "moves": [
+   [
+    "pancarta",
+    1
+   ],
+   [
+    "sentada",
+    4
+   ],
+   [
+    "recogida_de_firmas",
+    10
+   ],
+   [
+    "huelga_general",
+    18
+   ]
+  ],
+  "desc": "Trabaja de sol a sol y aún le queda energía para fruncir el ceño. Su sombrero ha visto mil asambleas.",
+  "evolves_to": 16,
+  "evolve_level": 22
+ },
+ "16": {
+  "key": "lider_marea",
+  "name": "Líder de la Marea",
+  "types": [
+   "activista"
+  ],
+  "zone": "andalucia",
+  "stats": {
+   "carisma": 85,
+   "oratoria": 90,
+   "aguante": 75,
+   "dialectica": 55,
+   "templanza": 70,
+   "agilidad": 70
+  },
+  "catch_rate": 70,
+  "base_exp": 165,
+  "palette": "activista",
+  "moves": [
+   [
+    "pancarta",
+    1
+   ],
+   [
+    "recogida_de_firmas",
+    1
+   ],
+   [
+    "sentada",
+    1
+   ],
+   [
+    "huelga_general",
+    1
+   ]
+  ],
+  "desc": "Nunca camina solo: una pequeña multitud le sigue a todas partes. Su pancarta está en blanco para no equivocarse."
+ },
+ "17": {
+  "key": "don_subvencion",
+  "name": "Don Subvención",
+  "types": [
+   "lobista"
+  ],
+  "zone": "andalucia",
+  "stats": {
+   "carisma": 85,
+   "oratoria": 60,
+   "aguante": 80,
+   "dialectica": 70,
+   "templanza": 75,
+   "agilidad": 35
+  },
+  "catch_rate": 80,
+  "base_exp": 150,
+  "palette": "lobista",
+  "moves": [
+   [
+    "influencia",
+    1
+   ],
+   [
+    "puerta_giratoria",
+    1
+   ],
+   [
+    "clientelismo",
+    1
+   ],
+   [
+    "maletin",
+    20
+   ]
+  ],
+  "desc": "Sentado sobre un sobre gigante, sonríe a todo el mundo. El puro no lo enciende nunca: es decorativo."
+ },
+ "18": {
+  "key": "concejal_aldea",
+  "name": "Concejal de Aldea",
+  "types": [
+   "baron",
+   "regionalista"
+  ],
+  "zone": "galicia",
+  "stats": {
+   "carisma": 60,
+   "oratoria": 45,
+   "aguante": 60,
+   "dialectica": 45,
+   "templanza": 60,
+   "agilidad": 30
+  },
+  "catch_rate": 170,
+  "base_exp": 75,
+  "palette": "baron_gal",
+  "moves": [
+   [
+    "dedazo",
+    1
+   ],
+   [
+    "morrina",
+    1
+   ],
+   [
+    "hecho_diferencial",
+    20
+   ],
+   [
+    "depende",
+    24
+   ]
+  ],
+  "desc": "Lleva boina, bastón y paraguas, por si acaso. Conoce a todos los vecinos y a todas sus vacas.",
+  "evolves_to": 19,
+  "evolve_level": 30
+ },
+ "19": {
+  "key": "cacique",
+  "name": "Cacique Comarcal",
+  "types": [
+   "baron",
+   "regionalista"
+  ],
+  "zone": "galicia",
+  "stats": {
+   "carisma": 90,
+   "oratoria": 80,
+   "aguante": 90,
+   "dialectica": 70,
+   "templanza": 85,
+   "agilidad": 50
+  },
+  "catch_rate": 60,
+  "base_exp": 190,
+  "palette": "baron_gal",
+  "moves": [
+   [
+    "dedazo",
+    1
+   ],
+   [
+    "hecho_diferencial",
+    1
+   ],
+   [
+    "vara_de_mando",
+    1
+   ],
+   [
+    "fuero_propio",
+    34
+   ]
+  ],
+  "desc": "Su anillo pesa tanto como su influencia. Guarda los votos en un hórreo en miniatura."
+ },
+ "20": {
+  "key": "retranqueiro",
+  "name": "O Retranqueiro",
+  "types": [
+   "regionalista"
+  ],
+  "zone": "galicia",
+  "stats": {
+   "carisma": 70,
+   "oratoria": 55,
+   "aguante": 70,
+   "dialectica": 80,
+   "templanza": 85,
+   "agilidad": 70
+  },
+  "catch_rate": 70,
+  "base_exp": 160,
+  "palette": "regionalista",
+  "moves": [
+   [
+    "depende",
+    1
+   ],
+   [
+    "morrina",
+    1
+   ],
+   [
+    "hecho_diferencial",
+    1
+   ],
+   [
+    "fuero_propio",
+    28
+   ]
+  ],
+  "desc": "Si le preguntas si sube o baja la escalera, responde: \"Depende\". Nadie le ha visto entero: siempre hay niebla."
+ },
+ "21": {
+  "key": "notario",
+  "name": "Notario do Pazo",
+  "types": [
+   "leguleyo"
+  ],
+  "zone": "galicia",
+  "stats": {
+   "carisma": 70,
+   "oratoria": 45,
+   "aguante": 75,
+   "dialectica": 90,
+   "templanza": 90,
+   "agilidad": 35
+  },
+  "catch_rate": 80,
+  "base_exp": 150,
+  "palette": "leguleyo",
+  "moves": [
+   [
+    "letra_pequena",
+    1
+   ],
+   [
+    "querella",
+    1
+   ],
+   [
+    "auto_de_imputacion",
+    1
+   ],
+   [
+    "recurso_constitucional",
+    26
+   ]
+  ],
+  "desc": "Da fe de todo, incluso de lo que no ha pasado todavía. Ata sus legajos con cinta de 1890."
+ },
+ "22": {
+  "key": "silenciosa",
+  "name": "A Silenciosa",
+  "types": [
+   "burocrata"
+  ],
+  "zone": "galicia",
+  "stats": {
+   "carisma": 75,
+   "oratoria": 50,
+   "aguante": 95,
+   "dialectica": 50,
+   "templanza": 90,
+   "agilidad": 30
+  },
+  "catch_rate": 90,
+  "base_exp": 140,
+  "palette": "burocrata",
+  "moves": [
+   [
+    "silencio_administrativo",
+    1
+   ],
+   [
+    "sello_oficial",
+    1
+   ],
+   [
+    "vuelva_usted_manana",
+    1
+   ],
+   [
+    "expediente_infinito",
+    1
+   ]
+  ],
+  "desc": "Nunca dice nada. Su montaña de expedientes crece cada noche y nadie sabe de dónde salen."
+ },
+ "23": {
+  "key": "mariscador",
+  "name": "Mariscador Mobilizado",
+  "types": [
+   "activista"
+  ],
+  "zone": "galicia",
+  "stats": {
+   "carisma": 70,
+   "oratoria": 85,
+   "aguante": 70,
+   "dialectica": 45,
+   "templanza": 60,
+   "agilidad": 65
+  },
+  "catch_rate": 90,
+  "base_exp": 145,
+  "palette": "activista",
+  "moves": [
+   [
+    "pancarta",
+    1
+   ],
+   [
+    "sentada",
+    1
+   ],
+   [
+    "recogida_de_firmas",
+    1
+   ],
+   [
+    "huelga_general",
+    26
+   ]
+  ],
+  "desc": "Sale de la ría directo a la manifestación sin quitarse las botas. Sigue goteando horas después."
+ },
+ "24": {
+  "key": "abogado",
+  "name": "Abogado Recurrente",
+  "types": [
+   "leguleyo"
+  ],
+  "zone": "galicia",
+  "stats": {
+   "carisma": 65,
+   "oratoria": 70,
+   "aguante": 60,
+   "dialectica": 85,
+   "templanza": 65,
+   "agilidad": 60
+  },
+  "catch_rate": 90,
+  "base_exp": 150,
+  "palette": "leguleyo",
+  "moves": [
+   [
+    "letra_pequena",
+    1
+   ],
+   [
+    "querella",
+    1
+   ],
+   [
+    "recurso_constitucional",
+    1
+   ],
+   [
+    "auto_de_imputacion",
+    28
+   ]
+  ],
+  "desc": "Su escrito de alegaciones mide cuatro kilómetros y sigue creciendo. Se tropieza con él a menudo."
+ },
+ "25": {
+  "key": "eterno",
+  "name": "El Eterno Candidato",
+  "types": [
+   "populista",
+   "baron"
+  ],
+  "zone": "",
+  "stats": {
+   "carisma": 110,
+   "oratoria": 100,
+   "aguante": 95,
+   "dialectica": 110,
+   "templanza": 95,
+   "agilidad": 90
+  },
+  "catch_rate": 25,
+  "base_exp": 300,
+  "palette": "eterno",
+  "moves": [
+   [
+    "promesa_imposible",
+    1
+   ],
+   [
+    "discurso_encendido",
+    1
+   ],
+   [
+    "vara_de_mando",
+    1
+   ],
+   [
+    "arranque_campana",
+    1
+   ]
+  ],
+  "desc": "Lleva en campaña desde que se inventaron las urnas. Su sonrisa de cartel no se ha movido ni un milímetro."
+ }
+}
