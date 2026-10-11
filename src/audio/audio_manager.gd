@@ -34,8 +34,7 @@ func _load(path: String, loop: bool) -> AudioStream:
 		s = s.duplicate()
 		s.loop_mode = AudioStreamWAV.LOOP_FORWARD
 		s.loop_begin = 0
-		var bytes_per_sample := 2 if s.format == AudioStreamWAV.FORMAT_16_BITS else 1
-		s.loop_end = s.data.size() / (bytes_per_sample * (2 if s.stereo else 1))
+		s.loop_end = int(round(s.get_length() * s.mix_rate))
 	_cache[path] = s
 	return s
 

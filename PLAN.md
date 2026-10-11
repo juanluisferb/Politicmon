@@ -61,7 +61,7 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 5. [x] Captura
 6. [x] Overworld, mapas y encuentros
 7. [x] Entrenadores y gimnasios
-8. [ ] Sonido
+8. [x] Sonido
 9. [ ] Menús y guardado
 10. [ ] Equilibrado, pulido y exportación
 
@@ -143,3 +143,11 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 - Escaño + regalo por líder; guardias que abren Andalucía (Escaño de Madrid) y Galicia
   (Escaño del Sur); el Hemiciclo Nacional se abre con 3 Escaños (legendario).
 - Tests de progresión de niveles, partidos, sprites y especialidad de los líderes.
+
+### Fase 8 — hecho
+- `tools/gen_audio.py`: sintetizador chiptune (cuadradas 12,5/25/50 %, ruido LFSR, bombo) y
+  partituras en notación compacta. 14 músicas en bucle (título, Madrid, Andalucía con aire
+  flamenco, Galicia en 6/8 tipo muiñeira, combate, gimnasio, legendario, victoria, encuentro,
+  medalla, evolución, Sede, garaje, final) y 20 efectos (golpe, captura, subida de nivel, curar...).
+- `Audio` reproduce bucles (también con WAV comprimido) y efectos con varios canales.
+- Tests: todo efecto/música referenciado en código o datos existe; los bucles cargan y duran <30 s.
