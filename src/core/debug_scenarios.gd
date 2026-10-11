@@ -146,6 +146,13 @@ static func run(name: String) -> void:
 			GameState.badges = ["madrid", "andalucia"]
 			Router.set_screen(Node.new(), "menu")
 			Ui.push_modal(PauseMenu.TrainerCard.new())
+		"legend":
+			GameState.reset_new_game()
+			GameState.party = [Politician.create(3, 45), Politician.create(16, 40)]
+			GameState.badges = ["madrid", "andalucia", "galicia"]
+			GameState.set_flag("has_starter")
+			SaveSystem.path = "user://debug_legend_save.json"
+			Router.start_overworld("madrid", Vector2i(18, 6), "up")
 		"newgame":
 			GameState.reset_new_game("ALEX")
 			Router.start_overworld("madrid_garaje", Vector2i(4, 5), "up")

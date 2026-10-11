@@ -597,6 +597,9 @@ def p16_lider_marea():
     c.poly([(16, 23), (5, 16), (5, 30), (16, 27)], L, D)
     c.vline(7, 18, 28, A)
     hand(c, 16, 26)
+    # straw hat from the Jornalero days, hanging behind the head
+    c.ellipse(27.5, 9, 17, 3, L, D)
+    c.hline(16, 39, 9, A)
     head(c, 17, 12, 11)
     hair(c, 17, 12, 11, "messy")
     c.rect(16, 10, 39, 12, L, D)

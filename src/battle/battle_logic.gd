@@ -128,7 +128,7 @@ static func level_for_exp(xp: int) -> int:
 
 static func exp_yield(defeated: Politician, trainer: bool) -> int:
 	var base := float(defeated.species().get("base_exp", 50))
-	var v := base * defeated.level / 5.0
+	var v := base * defeated.level / 4.0
 	if trainer:
 		v *= TRAINER_EXP_MULT
 	return maxi(1, int(v))

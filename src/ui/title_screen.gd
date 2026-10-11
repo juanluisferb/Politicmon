@@ -53,9 +53,10 @@ func _layout() -> void:
 	size = full
 	bg.size = full
 	var logo_w := UiStyle.text_width("POLITICMON") * 3
-	logo.position = Vector2(floorf((full.x - logo_w) / 2.0), safe.position.y + 24)
+	var top := safe.position.y + maxf(16.0, (safe.size.y - 250.0) / 2.0)
+	logo.position = Vector2(floorf((full.x - logo_w) / 2.0), top)
 	subtitle.position = Vector2(floorf((full.x - UiStyle.text_width(subtitle.text)) / 2.0), logo.position.y + 30)
-	var hero_y := subtitle.position.y + 16 + maxf(0.0, (safe.size.y - 300) * 0.25)
+	var hero_y := subtitle.position.y + 16
 	hero.position = Vector2(floorf(full.x / 2.0 - 56), hero_y)
 	stripe.position = Vector2(0, hero_y + 96)
 	stripe.size = Vector2(full.x, 22)

@@ -63,7 +63,7 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 7. [x] Entrenadores y gimnasios
 8. [x] Sonido
 9. [x] Menús y guardado
-10. [ ] Equilibrado, pulido y exportación
+10. [x] Equilibrado, pulido y exportación
 
 ## Registro de progreso
 
@@ -162,3 +162,23 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 - Pantalla de victoria final con créditos y equipo; se guarda la partida completada.
 - Tests de guardado (ida y vuelta completa, fichero corrupto, sobrescritura).
 - Flujo real probado en headless: título -> nueva partida -> intro -> guardar -> continuar.
+
+### Fase 10 — hecho
+- Simulador de equilibrado (`tools/balance.sh`): juega 20 partidas abstractas con las fórmulas
+  reales. Ajustes: EXP = base x nivel / 4, niveles de rivales/líderes retocados.
+  Resultado: ~53 min de media, ~30 combates salvajes, ~2 derrotas por partida (concentradas en
+  los líderes: reto razonable), legendario superable con el equipo final.
+- Título centrado en pantallas altas, sombrero del Jornalero en su evolución.
+- Capturas en 1080x1920, 1170x2532 (con notch simulado) y 720x1600: `docs/screenshots/`.
+- Exportación: presets Android (APK depuración firmado generado en `build/politicmon.apk`,
+  armeabi-v7a + arm64, inmersivo edge-to-edge) e iOS (proyecto Xcode; el .ipa requiere macOS).
+- README con ejecución en escritorio, instalación en móvil y regeneración de assets.
+
+## Pendiente / ideas para siguientes versiones
+- Keystore de release y firma para publicar en tiendas; probar en dispositivos reales
+  (rendimiento, safe area real de distintos notch).
+- Más contenido: rutas entre zonas, más interiores, revanchas, más objetos y movimientos.
+- Animaciones de ataque específicas por tipo y más efectos visuales en combate.
+- Mover las tablas de datos de `tools/*.py` (políticos, mapas) a edición directa del JSON
+  como fuente de verdad, o un pequeño editor.
+- El push a GitHub falló durante el desarrollo por permisos (403): los commits están en local.

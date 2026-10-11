@@ -12,8 +12,8 @@ func test_exp_curve() -> void:
 
 func test_exp_yield() -> void:
 	var w := Politician.create(1, 10)
-	eq(BattleLogic.exp_yield(w, false), 110, "wild becario L10")
-	eq(BattleLogic.exp_yield(w, true), 165, "trainer x1.5")
+	eq(BattleLogic.exp_yield(w, false), 137, "wild becario L10")
+	eq(BattleLogic.exp_yield(w, true), 206, "trainer x1.5")
 
 
 func test_level_up_increases_stats_and_hp() -> void:
