@@ -57,8 +57,8 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 1. [x] Proyecto y presentación a pantalla completa
 2. [x] Datos y tabla de tipos
 3. [x] Gráficos y fuente
-4. [ ] Combate
-5. [ ] Captura
+4. [x] Combate
+5. [x] Captura
 6. [ ] Overworld, mapas y encuentros
 7. [ ] Entrenadores y gimnasios
 8. [ ] Sonido
@@ -99,3 +99,21 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 - Fuente bitmap 8x8 proporcional con acentos/ñ/¿¡ (`gen_font.py`), marcos GBC y controles táctiles.
 - Hojas de contacto en `docs/contact_sheets/`; `tools/check_assets.py` valida tamaños y paletas.
 - `tools/build_assets.sh` regenera todo.
+
+### Fase 4 — hecho
+- `BattleScene`: combate 1 vs 1 por turnos a pantalla completa (fondo, plataformas, HUD con PS/EXP,
+  cuadro de texto de ancho completo), intro con fundido, menú LUCHAR/EQUIPO/OBJETOS/HUIR,
+  menú de movimientos con tipo/PP, orden por Agilidad, precisión, críticos, STAB, eficacia,
+  bonus regional, estados (Escándalo, Imputado, En Campaña, Dimisión), cambios de estadísticas,
+  drenaje/retroceso, IA (aleatoria en salvajes, táctica en entrenadores), EXP compartida (50%),
+  subida de nivel, aprendizaje de movimientos con sustitución, evolución tras el combate,
+  derrota (pierdes la mitad de fondos y vuelves a la Sede).
+- `PartyScreen`, `SummaryScreen`, `HpBar`, `BattleHud`, `ItemEffects`.
+- Escenarios de depuración + piloto automático (`--scenario=battle_auto --autopress=a`).
+
+### Fase 5 — hecho
+- Afiliación con Carnet Normal / Premium / Puesto en la Lista: probabilidad por PS restantes,
+  estado y tipo de carnet; 4 comprobaciones (0-3 sacudidas) con animación de lanzamiento.
+- Equipo máximo de 6; el resto va a la reserva de la Sede. Registro automático en la Politidex.
+- No se puede afiliar a militantes de otros partidos (combates contra entrenadores).
+- Tests de captura (probabilidad empírica, bonus de estado, legendario) y de objetos/inventario.
