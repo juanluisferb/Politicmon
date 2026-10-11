@@ -2,6 +2,7 @@ class_name Modal
 extends Control
 
 var opened_at := 0
+var consume_input := true
 
 
 func _init() -> void:

@@ -64,6 +64,8 @@ func _input(event: InputEvent) -> void:
 	if event is InputEventScreenTouch or event is InputEventScreenDrag or event is InputEventMouseMotion:
 		return
 	var top: Modal = modals.back()
+	if not top.consume_input:
+		return
 	get_viewport().set_input_as_handled()
 	top.handle_input(event)
 

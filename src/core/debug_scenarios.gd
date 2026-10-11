@@ -126,6 +126,26 @@ static func run(name: String) -> void:
 			GameState.party = [Politician.create(3, 30)]
 			GameState.set_flag("has_starter")
 			Router.start_overworld("gym_madrid", Vector2i(4, 4), "up")
+		"title":
+			Router.goto_title()
+		"title_menu":
+			Router.goto_title()
+			await Router.get_tree().create_timer(0.3).timeout
+			var ev := InputEventAction.new()
+			ev.action = "a"
+			ev.pressed = true
+			Input.parse_input_event(ev)
+		"victory":
+			GameState.reset_new_game()
+			GameState.party = [Politician.create(3, 38), Politician.create(25, 36), Politician.create(16, 30), Politician.create(19, 33)]
+			GameState.badges = ["madrid", "andalucia", "galicia"]
+			SaveSystem.path = "user://debug_victory_save.json"
+			Router.set_screen(load("res://scenes/victory.tscn").instantiate(), "victory")
+		"card":
+			GameState.reset_new_game()
+			GameState.badges = ["madrid", "andalucia"]
+			Router.set_screen(Node.new(), "menu")
+			Ui.push_modal(PauseMenu.TrainerCard.new())
 		"newgame":
 			GameState.reset_new_game("ALEX")
 			Router.start_overworld("madrid_garaje", Vector2i(4, 5), "up")

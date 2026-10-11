@@ -62,7 +62,7 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 6. [x] Overworld, mapas y encuentros
 7. [x] Entrenadores y gimnasios
 8. [x] Sonido
-9. [ ] Menús y guardado
+9. [x] Menús y guardado
 10. [ ] Equilibrado, pulido y exportación
 
 ## Registro de progreso
@@ -151,3 +151,14 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
   medalla, evolución, Sede, garaje, final) y 20 efectos (golpe, captura, subida de nivel, curar...).
 - `Audio` reproduce bucles (también con WAV comprimido) y efectos con varios canales.
 - Tests: todo efecto/música referenciado en código o datos existe; los bucles cargan y duran <30 s.
+
+### Fase 9 — hecho
+- Pantalla de título (logo, desfile de iconos, CONTINUAR / NUEVA PARTIDA / CRÉDITOS),
+  elección de nombre (predefinidos o teclado, también virtual en móvil).
+- Menú de pausa: Equipo (ficha, reordenar), Politidex (lista + ficha con stats base y texto),
+  Objetos (uso fuera de combate), Ficha de líder (Escaños, fondos, tiempo), Guardar, Opciones
+  (sonido, controles táctiles).
+- Guardado local JSON atómico (`user://politicmon_save.json`), carga con validación.
+- Pantalla de victoria final con créditos y equipo; se guarda la partida completada.
+- Tests de guardado (ida y vuelta completa, fichero corrupto, sobrescritura).
+- Flujo real probado en headless: título -> nueva partida -> intro -> guardar -> continuar.

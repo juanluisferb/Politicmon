@@ -38,7 +38,10 @@ func read_save() -> Dictionary:
 	if not has_save():
 		return {}
 	var txt := FileAccess.get_file_as_string(path)
-	var v = JSON.parse_string(txt)
+	var json := JSON.new()
+	if json.parse(txt) != OK:
+		return {}
+	var v = json.data
 	if not (v is Dictionary) or not v.has("party"):
 		return {}
 	return v
