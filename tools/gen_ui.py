@@ -177,3 +177,20 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def make_icon():
+    from PIL import Image
+    import os
+    src = Image.open(os.path.join(pixlib.ROOT, "assets", "sprites", "politicians", "25_eterno_front.png"))
+    for size, scale in ((192, 3), (432, 7)):
+        bg = Image.new("RGBA", (size, size), pixlib.hex_rgb("#f8e8a0") + (255,))
+        big = src.resize((56 * scale, 56 * scale), Image.NEAREST)
+        bg.alpha_composite(big, ((size - big.width) // 2, (size - big.height) // 2 + scale))
+        name = "icon.png" if size == 192 else "icon_foreground.png"
+        bg.save(os.path.join(pixlib.ROOT, "assets", "ui", name))
+    print("icon ok")
+
+
+if __name__ == "__main__":
+    make_icon()

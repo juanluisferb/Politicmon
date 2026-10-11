@@ -56,7 +56,7 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 
 1. [x] Proyecto y presentación a pantalla completa
 2. [x] Datos y tabla de tipos
-3. [ ] Gráficos y fuente
+3. [x] Gráficos y fuente
 4. [ ] Combate
 5. [ ] Captura
 6. [ ] Overworld, mapas y encuentros
@@ -85,3 +85,17 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 - `GameData` (carga JSON), `Politician` (stats, niveles, movimientos, evolución, serialización),
   `BattleLogic` (daño, tipos, STAB, críticos, regionalismo, estados, captura, experiencia, IA).
 - Tests: tabla de tipos, daño, captura, experiencia/evolución (36 tests en verde).
+
+### Fase 3 — hecho
+- Librería de pixel art propia (`tools/art/canvas.py`, `chibi.py`): primitivas sin antialiasing
+  sobre índices de paleta + plantillas de caracteres.
+- 25 políticos: frontal 56x56 dibujado por personaje (`politicians_art.py`), espalda 32x32 e
+  icono 16x16 (`small_art.py`). Paleta de 4 colores (1 transparente) por tipo.
+- Entrenadores: 4 modelos de rival (uno por partido), 3 líderes, jugador, mentora, espalda del jugador.
+- Overworld 16x16: 17 personajes x 4 direcciones x 2 frames desde plantillas dibujadas a mano.
+- Iconos de objetos (6) + medalla Escaño (genérica y una por zona).
+- Tileset: 95 metatiles 16x16 compuestos de 294 tiles 8x8 únicos, paleta de 4 colores por tile
+  (`gen_tiles.py` -> `assets/tiles/*.png` + `data/tiles.json`).
+- Fuente bitmap 8x8 proporcional con acentos/ñ/¿¡ (`gen_font.py`), marcos GBC y controles táctiles.
+- Hojas de contacto en `docs/contact_sheets/`; `tools/check_assets.py` valida tamaños y paletas.
+- `tools/build_assets.sh` regenera todo.
