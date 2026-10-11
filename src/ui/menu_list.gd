@@ -2,6 +2,7 @@ class_name MenuList
 extends Modal
 
 signal finished(index: int)
+signal hovered(index: int)
 
 const ROW_H := 12
 const PAD := 8
@@ -47,6 +48,8 @@ func _ready() -> void:
 		w = maxf(w, UiStyle.text_width(left) + (UiStyle.text_width(right) + 10 if right != "" else 0.0))
 	var title_h := 12 if title != "" else 0
 	size = Vector2(ceilf(w) + PAD * 2 + 8, visible_rows * ROW_H + 14 + title_h)
+	var limit: Vector2 = Ui.area()
+	size.x = minf(size.x, limit.x)
 	match anchor_mode:
 		"topleft": position = anchor_point
 		"topright": position = anchor_point - Vector2(size.x, 0)
@@ -54,6 +57,8 @@ func _ready() -> void:
 		"bottomleft": position = anchor_point - Vector2(0, size.y)
 		"center": position = anchor_point - size / 2
 	position = position.round()
+	position.x = clampf(position.x, 0, maxf(0, limit.x - size.x))
+	position.y = clampf(position.y, 0, maxf(0, limit.y - size.y))
 	frame = UiStyle.panel(Rect2(Vector2.ZERO, size))
 	add_child(frame)
 	if title != "":
@@ -101,8 +106,8 @@ func _refresh() -> void:
 	selection_changed(index)
 
 
-func selection_changed(_i: int) -> void:
-	pass
+func selection_changed(i: int) -> void:
+	hovered.emit(i)
 
 
 func move(delta: int) -> void:

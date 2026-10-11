@@ -10,6 +10,8 @@ func _ready() -> void:
 		var p: PackedStringArray = args["safe"].split(",")
 		var win := DisplayServer.window_get_size()
 		ScreenScaler.set_forced_safe_area(Rect2i(int(p[0]), int(p[1]), win.x - int(p[0]) - int(p[2]), win.y - int(p[1]) - int(p[3])))
+	if args.has("autopress"):
+		_autopress(args["autopress"].split(","), float(args.get("autopress_rate", "0.05")))
 	if args.has("scenario"):
 		await DebugScenarios.run(args["scenario"])
 	else:
@@ -25,6 +27,23 @@ func _ready() -> void:
 		img.save_png(args["shot"])
 		print("screenshot saved: ", args["shot"], " logical=", ScreenScaler.logical_size, " scale=", ScreenScaler.scale_factor)
 		get_tree().quit()
+
+
+func _autopress(actions: PackedStringArray, rate: float) -> void:
+	var i := 0
+	while true:
+		await get_tree().create_timer(rate).timeout
+		var a := actions[i % actions.size()]
+		var ev := InputEventAction.new()
+		ev.action = a
+		ev.pressed = true
+		Input.parse_input_event(ev)
+		await get_tree().process_frame
+		var up := InputEventAction.new()
+		up.action = a
+		up.pressed = false
+		Input.parse_input_event(up)
+		i += 1
 
 
 static func parse_args() -> Dictionary:

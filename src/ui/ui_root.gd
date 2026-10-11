@@ -78,6 +78,12 @@ func say(text: String, wait_last: bool = true) -> void:
 		dialog.hide()
 
 
+func set_dialog_text(text: String) -> void:
+	dialog.show()
+	dialog.text_label.text = "\n".join(UiStyle.wrap(text, dialog.text_width()))
+	dialog.text_label.visible_characters = -1
+
+
 func close_dialog() -> void:
 	dialog.hide()
 
@@ -97,6 +103,8 @@ func choose(options: Array, opts: Dictionary = {}) -> int:
 	var mode: String = opts.get("mode", "bottomright")
 	var point: Vector2 = opts.get("point", Vector2(root.size.x, root.size.y - (dialog.box_height() if dialog.visible else 0)))
 	m.place(point, mode)
+	if opts.has("on_hover"):
+		m.hovered.connect(opts["on_hover"])
 	push_modal(m)
 	var result: int = await m.finished
 	pop_modal(m)
