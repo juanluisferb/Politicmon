@@ -6,3 +6,5 @@
 *.keystore
 __pycache__/
 export_credentials.cfg
+
+!release/*.apk

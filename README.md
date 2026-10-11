@@ -34,10 +34,11 @@ Con el ratón se pueden pulsar los controles táctiles en pantalla y las opcione
 ## Cómo instalarlo en el móvil
 
 ### Android
-- APK de depuración ya generado: `build/politicmon.apk` (armeabi-v7a + arm64-v8a). No se sube a git.
+- APK de depuración listos para instalar en `release/`: `politicmon-debug.apk` (armeabi-v7a + arm64-v8a)
+  y `politicmon-debug-arm64.apk` (solo arm64, más ligero, válido para casi cualquier móvil actual).
 - Instalar: copia el APK al móvil y ábrelo (permite «orígenes desconocidos»), o por USB:
   ```bash
-  adb install -r build/politicmon.apk
+  adb install -r release/politicmon-debug-arm64.apk
   ```
 - Para regenerarlo necesitas las plantillas de exportación de Godot 4.7.2, un JDK 17+ y el
   Android SDK (o como mínimo `build-tools/<versión>/apksigner` y `platform-tools/adb`), configurados
