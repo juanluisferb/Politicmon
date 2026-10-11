@@ -60,7 +60,7 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 4. [x] Combate
 5. [x] Captura
 6. [x] Overworld, mapas y encuentros
-7. [ ] Entrenadores y gimnasios
+7. [x] Entrenadores y gimnasios
 8. [ ] Sonido
 9. [ ] Menús y guardado
 10. [ ] Equilibrado, pulido y exportación
@@ -134,3 +134,12 @@ tools/                   Generadores de assets y utilidades (Python + Pillow, sc
 - Guion de entradas para pruebas headless (`--inputs=up:3,a,...`).
 - Tests de mapas: formato, warps, objetos en casillas válidas, 3 rivales + 1 líder por zona,
   tablas de encuentros por zona y alcanzabilidad (BFS).
+
+### Fase 7 — hecho
+- 9 rivales (3 por zona) de 4 partidos ficticios (PPI, ASC, MYT, PAS) con colores propios,
+  frase de presentación, derrota y posterior; equipos de 1-3 con nivel creciente.
+- 3 Parlamentos (Asamblea de Madrid / Mediático, Parlamento del Sur / Barón,
+  Parlamento del Noroeste / Regionalista) con un rival de guardia y su líder.
+- Escaño + regalo por líder; guardias que abren Andalucía (Escaño de Madrid) y Galicia
+  (Escaño del Sur); el Hemiciclo Nacional se abre con 3 Escaños (legendario).
+- Tests de progresión de niveles, partidos, sprites y especialidad de los líderes.

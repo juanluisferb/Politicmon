@@ -162,8 +162,11 @@ func _intro() -> void:
 	tw.tween_property(trainer_sprite if is_trainer else enemy_sprite, "position", enemy_home, 0.6)
 	await tw.finished
 	if is_trainer:
-		await say("¡%s te reta a un debate!" % trainer.get("name", "Rival"))
-		await say("%s: «%s»" % [trainer.get("name", ""), trainer.get("intro", "")])
+		var party_name: String = GameData.parties.get(trainer.get("party", ""), {}).get("name", "")
+		if party_name != "":
+			await say("¡%s, del %s, te reta a un debate!" % [trainer.get("name", "Rival"), party_name])
+		else:
+			await say("¡%s te reta a un debate!" % trainer.get("name", "Rival"))
 		var tw2 := create_tween()
 		tw2.tween_property(trainer_sprite, "position", enemy_home + Vector2(full_w, 0), 0.35)
 		await tw2.finished
