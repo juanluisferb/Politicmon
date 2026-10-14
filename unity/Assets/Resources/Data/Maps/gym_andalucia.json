@@ -1,0 +1,113 @@
+{
+ "id": "gym_andalucia",
+ "name": "Parlamento del Sur",
+ "zone": "andalucia",
+ "music": "gym",
+ "width": 10,
+ "height": 14,
+ "border": " ",
+ "interior": true,
+ "legend": [
+  {
+   "symbol": "#",
+   "tile": "wall_int"
+  },
+  {
+   "symbol": "X",
+   "tile": "carpet"
+  },
+  {
+   "symbol": "Y",
+   "tile": "podium"
+  },
+  {
+   "symbol": "e",
+   "tile": "mat"
+  },
+  {
+   "symbol": "p",
+   "tile": "plant"
+  },
+  {
+   "symbol": "s",
+   "tile": "seat"
+  },
+  {
+   "symbol": " ",
+   "tile": "void"
+  }
+ ],
+ "rows": [
+  "##########",
+  "#pXXYXXXp#",
+  "#XXXXXXXX#",
+  "#XXXXXXXX#",
+  "#sssXXsss#",
+  "#XXXXXXXX#",
+  "#sssXXsss#",
+  "#XXXXXXXX#",
+  "#sssXXsss#",
+  "#XXXXXXXX#",
+  "#sssXXsss#",
+  "#XXXXXXXX#",
+  "#pXXXXXXp#",
+  "####ee####"
+ ],
+ "warps": [
+  {
+   "x": 4,
+   "y": 13,
+   "toMap": "andalucia",
+   "toX": 19,
+   "toY": 35,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 5,
+   "y": 13,
+   "toMap": "andalucia",
+   "toX": 19,
+   "toY": 35,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  }
+ ],
+ "npcs": [
+  {
+   "id": "leader_andalucia",
+   "x": 4,
+   "y": 2,
+   "sprite": "leader_andalucia",
+   "facing": "down",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "leader_andalucia",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "t_and_3",
+   "x": 5,
+   "y": 7,
+   "sprite": "rival_ppi",
+   "facing": "left",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "t_and_3",
+   "sight": 1,
+   "hideIf": "",
+   "stock": []
+  }
+ ],
+ "signs": [],
+ "items": [],
+ "areas": [],
+ "encounterRate": 0.0,
+ "encounters": []
+}

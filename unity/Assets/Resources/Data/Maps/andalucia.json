@@ -1,0 +1,395 @@
+{
+ "id": "andalucia",
+ "name": "Andalucía",
+ "zone": "andalucia",
+ "music": "andalucia",
+ "width": 26,
+ "height": 40,
+ "border": "T",
+ "interior": false,
+ "legend": [
+  {
+   "symbol": "\"",
+   "tile": "dry_grass"
+  },
+  {
+   "symbol": ",",
+   "tile": "cobble"
+  },
+  {
+   "symbol": ".",
+   "tile": "albero"
+  },
+  {
+   "symbol": "<",
+   "tile": "caseta2_top"
+  },
+  {
+   "symbol": ">",
+   "tile": "caseta2"
+  },
+  {
+   "symbol": "A",
+   "tile": "sur_roof"
+  },
+  {
+   "symbol": "C",
+   "tile": "sur_column"
+  },
+  {
+   "symbol": "D",
+   "tile": "cal_door"
+  },
+  {
+   "symbol": "E",
+   "tile": "sede_door"
+  },
+  {
+   "symbol": "G",
+   "tile": "sur_door"
+  },
+  {
+   "symbol": "K",
+   "tile": "caseta"
+  },
+  {
+   "symbol": "O",
+   "tile": "olivo"
+  },
+  {
+   "symbol": "P",
+   "tile": "sede_roof"
+  },
+  {
+   "symbol": "Q",
+   "tile": "sede_wall"
+  },
+  {
+   "symbol": "R",
+   "tile": "tile_roof"
+  },
+  {
+   "symbol": "S",
+   "tile": "sign_albero"
+  },
+  {
+   "symbol": "T",
+   "tile": "naranjo"
+  },
+  {
+   "symbol": "W",
+   "tile": "cal_wall"
+  },
+  {
+   "symbol": "Y",
+   "tile": "caseta_door"
+  },
+  {
+   "symbol": "^",
+   "tile": "caseta_top"
+  },
+  {
+   "symbol": "a",
+   "tile": "sur_roof_edge"
+  },
+  {
+   "symbol": "c",
+   "tile": "sur_emblem"
+  },
+  {
+   "symbol": "f",
+   "tile": "flowers"
+  },
+  {
+   "symbol": "i",
+   "tile": "fence_wood"
+  },
+  {
+   "symbol": "k",
+   "tile": "macetas"
+  },
+  {
+   "symbol": "l",
+   "tile": "farol"
+  },
+  {
+   "symbol": "o",
+   "tile": "fountain"
+  },
+  {
+   "symbol": "p",
+   "tile": "sede_roof_edge"
+  },
+  {
+   "symbol": "q",
+   "tile": "sede_sign"
+  },
+  {
+   "symbol": "r",
+   "tile": "tile_roof_edge"
+  },
+  {
+   "symbol": "w",
+   "tile": "cal_window"
+  }
+ ],
+ "rows": [
+  "TTTTTTTTTTTT.TTTTTTTTTTTTT",
+  "Tk...........S..........kT",
+  "T.........l...l..........T",
+  "T.^^^^.<<<<.....^^^^.<<<<T",
+  "T.KYKK.>>>>.....KYKK.>>>>T",
+  "T.........l...l..........T",
+  "T........................T",
+  "T.........l...l..........T",
+  "T.<<<<.^^^^.....<<<<.^^^^T",
+  "T.>>>>.KYKK.....>>>>.KYKKT",
+  "T.........l...l..........T",
+  "T........................T",
+  "Tkkkk.kkkkk...kkkkk.kkkkkT",
+  "T.............,,,,,,,,,,,T",
+  "Tiiii.iiiii...,PPPPPP,,,,T",
+  "T.............,pppppp,kk,T",
+  "TO\"\"\"\"\"\"\"\"....,QqQQqQ,,,,T",
+  "T.\"\"\"\"\"\"\"\"O...,QQEQQQ,,,,T",
+  "T.\"\"\"\"\"\"\"\"....,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"\"\"....,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"\"\".S..T,,,,,,,,,TT",
+  "T.\"\"\"\"\"\"\"\"....,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"\"\"....,,,,,,,,,,,T",
+  "T....O........,,,,,k,,,,,T",
+  "T..O....O.....T,,,fof,,,TT",
+  "T.............,,,,,k,,,,,T",
+  "T.\"\"\"\"\"\"......,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"..O...,,,,,,,,,,,T",
+  "T.\"\"\"\"\"\"......T,,,,,,,,,TT",
+  "T.\"\"\"\"\"\"......,,S,,,,,,,,T",
+  "T.\"\"\"\"\"\"......,,,,,,,,,,,T",
+  "TO.......O....,,,AAAAAA,,T",
+  "T.......\"\"\"...,,,aaaaaa,,T",
+  "T.RRRRR.\"\"\"...,,,CcCCcC,,T",
+  "T.rrrrr.\"\"\"...,,lCCGCCCl,T",
+  "T.wWwWw.\"\"\"...,,,,,,,,,,,T",
+  "T.WWDWW.\"\"\"...,,,,,,,,,,,T",
+  "T.......\"\"\".TTTTTTTTTTTTTT",
+  "TTTTTTTTTTTTTTTTTTTTTTTTTT",
+  "TTTTTTTTTTTTTTTTTTTTTTTTTT"
+ ],
+ "warps": [
+  {
+   "x": 12,
+   "y": 0,
+   "toMap": "madrid",
+   "toX": 11,
+   "toY": 44,
+   "facing": "up",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 17,
+   "y": 17,
+   "toMap": "sede_andalucia",
+   "toX": 4,
+   "toY": 6,
+   "facing": "up",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 19,
+   "y": 34,
+   "toMap": "gym_andalucia",
+   "toX": 4,
+   "toY": 12,
+   "facing": "up",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  }
+ ],
+ "npcs": [
+  {
+   "id": "t_and_1",
+   "x": 12,
+   "y": 9,
+   "sprite": "rival_pas",
+   "facing": "down",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "t_and_1",
+   "sight": 3,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "t_and_2",
+   "x": 5,
+   "y": 25,
+   "sprite": "rival_asc",
+   "facing": "right",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "t_and_2",
+   "sight": 4,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "and_npc1",
+   "x": 18,
+   "y": 2,
+   "sprite": "npc_c",
+   "facing": "down",
+   "eventType": "talk",
+   "lines": [
+    "¡Bienvenido a la feria! Aquí hasta los Barones bailan sevillanas.",
+    "Truco: los Activistas tumban a los Barones, y los Lobistas también. Lo sé porque me lo dijo un Lobista."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "and_npc2",
+   "x": 20,
+   "y": 27,
+   "sprite": "npc_a",
+   "facing": "up",
+   "eventType": "talk",
+   "lines": [
+    "Don Gumersindo lleva tantos años en el Parlamento que su sillón tiene su forma.",
+    "Sus afiliados son Barones de toda la vida. Los Burócratas les hacen cosquillas."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "and_npc3",
+   "x": 6,
+   "y": 32,
+   "sprite": "npc_c",
+   "facing": "down",
+   "eventType": "talk",
+   "lines": [
+    "En el campo hay Jornaleros Indignados. Si les das un Carnet... a lo mejor se indignan contigo."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  }
+ ],
+ "signs": [
+  {
+   "x": 4,
+   "y": 36,
+   "text": "La puerta del cortijo está cerrada. Dentro se oye: «¡Que no, que este año tampoco hay subvención!»"
+  },
+  {
+   "x": 13,
+   "y": 1,
+   "text": "REAL DE LA FERIA. Cada caseta, un partido; cada partido, una caseta."
+  },
+  {
+   "x": 11,
+   "y": 20,
+   "text": "EL CORTIJO. Prohibido el paso a coches oficiales. Los jornaleros no muerden (casi nunca)."
+  },
+  {
+   "x": 16,
+   "y": 29,
+   "text": "PARLAMENTO DEL SUR. Líder: Don Gumersindo de la Vara. Especialista en Barones."
+  }
+ ],
+ "items": [
+  {
+   "id": "and_item1",
+   "x": 9,
+   "y": 36,
+   "item": "puesto_lista",
+   "count": 1
+  },
+  {
+   "id": "and_item2",
+   "x": 23,
+   "y": 6,
+   "item": "factcheck",
+   "count": 2
+  },
+  {
+   "id": "and_item3",
+   "x": 2,
+   "y": 21,
+   "item": "carnet_premium",
+   "count": 2
+  }
+ ],
+ "areas": [
+  {
+   "name": "Real de la Feria",
+   "x": 0,
+   "y": 0,
+   "width": 26,
+   "height": 13
+  },
+  {
+   "name": "Cortijo",
+   "x": 0,
+   "y": 13,
+   "width": 12,
+   "height": 27
+  },
+  {
+   "name": "Plaza del Ayuntamiento",
+   "x": 12,
+   "y": 13,
+   "width": 14,
+   "height": 27
+  }
+ ],
+ "encounterRate": 0.11,
+ "encounters": [
+  {
+   "species": 10,
+   "minLevel": 12,
+   "maxLevel": 15,
+   "weight": 24
+  },
+  {
+   "species": 15,
+   "minLevel": 12,
+   "maxLevel": 15,
+   "weight": 24
+  },
+  {
+   "species": 13,
+   "minLevel": 13,
+   "maxLevel": 16,
+   "weight": 18
+  },
+  {
+   "species": 17,
+   "minLevel": 13,
+   "maxLevel": 16,
+   "weight": 14
+  },
+  {
+   "species": 11,
+   "minLevel": 15,
+   "maxLevel": 17,
+   "weight": 10
+  },
+  {
+   "species": 14,
+   "minLevel": 15,
+   "maxLevel": 17,
+   "weight": 10
+  }
+ ]
+}

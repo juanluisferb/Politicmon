@@ -1,0 +1,109 @@
+{
+ "id": "madrid_garaje",
+ "name": "Garaje fundacional",
+ "zone": "madrid",
+ "music": "garaje",
+ "width": 8,
+ "height": 7,
+ "border": " ",
+ "interior": true,
+ "legend": [
+  {
+   "symbol": "#",
+   "tile": "wall_int"
+  },
+  {
+   "symbol": "B",
+   "tile": "shelf"
+  },
+  {
+   "symbol": "K",
+   "tile": "desk"
+  },
+  {
+   "symbol": "_",
+   "tile": "floor"
+  },
+  {
+   "symbol": "e",
+   "tile": "mat"
+  },
+  {
+   "symbol": "p",
+   "tile": "plant"
+  },
+  {
+   "symbol": " ",
+   "tile": "void"
+  }
+ ],
+ "rows": [
+  "########",
+  "#B_KK_p#",
+  "#______#",
+  "#______#",
+  "#______#",
+  "#______#",
+  "###ee###"
+ ],
+ "warps": [
+  {
+   "x": 3,
+   "y": 6,
+   "toMap": "madrid",
+   "toX": 18,
+   "toY": 39,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "has_starter",
+   "deniedText": "Profesora Urna: «¡Espera! No puedes salir a la calle sin tu primer afiliado.»"
+  },
+  {
+   "x": 4,
+   "y": 6,
+   "toMap": "madrid",
+   "toX": 18,
+   "toY": 39,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "has_starter",
+   "deniedText": "Profesora Urna: «¡Espera! No puedes salir a la calle sin tu primer afiliado.»"
+  }
+ ],
+ "npcs": [
+  {
+   "id": "mentor",
+   "x": 4,
+   "y": 2,
+   "sprite": "mentor",
+   "facing": "down",
+   "eventType": "starter",
+   "lines": [],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  }
+ ],
+ "signs": [
+  {
+   "x": 3,
+   "y": 1,
+   "text": "Un escritorio con un cartel: «Partido Nuevo. Sede central (provisional)»."
+  },
+  {
+   "x": 4,
+   "y": 1,
+   "text": "Un escritorio con un cartel: «Partido Nuevo. Sede central (provisional)»."
+  },
+  {
+   "x": 1,
+   "y": 1,
+   "text": "Libros: «Cómo fundar un partido en 10 pasos», «Mil promesas para el invierno»."
+  }
+ ],
+ "items": [],
+ "areas": [],
+ "encounterRate": 0.0,
+ "encounters": []
+}

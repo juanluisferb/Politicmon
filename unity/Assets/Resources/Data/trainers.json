@@ -1,0 +1,300 @@
+{
+ "trainers": [
+  {
+   "id": "t_mad_1",
+   "name": "Militante Teo",
+   "party": "ppi",
+   "sprite": "rival_ppi",
+   "team": [
+    {
+     "species": 8,
+     "level": 4
+    },
+    {
+     "species": 1,
+     "level": 5
+    }
+   ],
+   "reward": 120,
+   "intro": "¡Eh, tú! En el Partido del Progreso Infinito progresamos tanto que ya vamos por el año que viene.",
+   "defeatLine": "Vale, vale... progresaré un poco menos.",
+   "afterLine": "Progresar cansa. Me voy a tomar un café.",
+   "isLeader": false,
+   "badge": "",
+   "badgeName": ""
+  },
+  {
+   "id": "t_mad_2",
+   "name": "Interventora Clara",
+   "party": "asc",
+   "sprite": "rival_asc",
+   "team": [
+    {
+     "species": 9,
+     "level": 7
+    },
+    {
+     "species": 6,
+     "level": 7
+    }
+   ],
+   "reward": 160,
+   "intro": "Alianza por el Sentido Común. Y el sentido común dice que tú no pasas de aquí.",
+   "defeatLine": "Lo sensato habría sido no retarte.",
+   "afterLine": "Ve a la Asamblea. Pero con sentido común, ¿eh?",
+   "isLeader": false,
+   "badge": "",
+   "badgeName": ""
+  },
+  {
+   "id": "t_mad_3",
+   "name": "Portavoz Nico",
+   "party": "myt",
+   "sprite": "rival_myt",
+   "team": [
+    {
+     "species": 4,
+     "level": 8
+    },
+    {
+     "species": 7,
+     "level": 9
+    }
+   ],
+   "reward": 220,
+   "intro": "¡Ya toca! ¿El qué? ¡Ya toca enfrentarse a mí!",
+   "defeatLine": "Pues... ya tocaba perder, supongo.",
+   "afterLine": "La líder te espera arriba. Suerte en el plató.",
+   "isLeader": false,
+   "badge": "",
+   "badgeName": ""
+  },
+  {
+   "id": "t_and_1",
+   "name": "Concejala Rocío",
+   "party": "pas",
+   "sprite": "rival_pas",
+   "team": [
+    {
+     "species": 10,
+     "level": 14
+    },
+    {
+     "species": 15,
+     "level": 15
+    }
+   ],
+   "reward": 300,
+   "intro": "¡Plataforma del Ahora Sí! Antes no peleaba, pero ahora sí.",
+   "defeatLine": "Ahora sí... he perdido.",
+   "afterLine": "¡Qué arte tienen tus afiliados!",
+   "isLeader": false,
+   "badge": "",
+   "badgeName": ""
+  },
+  {
+   "id": "t_and_2",
+   "name": "Tesorero Manolo",
+   "party": "asc",
+   "sprite": "rival_asc",
+   "team": [
+    {
+     "species": 17,
+     "level": 16
+    },
+    {
+     "species": 7,
+     "level": 16
+    },
+    {
+     "species": 13,
+     "level": 16
+    }
+   ],
+   "reward": 360,
+   "intro": "Las cuentas claras y el combate espeso. ¡Vamos allá!",
+   "defeatLine": "Esto no cuadra. Lo reviso y te digo.",
+   "afterLine": "En el Cortijo hay afiliables muy curiosos.",
+   "isLeader": false,
+   "badge": "",
+   "badgeName": ""
+  },
+  {
+   "id": "t_and_3",
+   "name": "Asesora Triana",
+   "party": "ppi",
+   "sprite": "rival_ppi",
+   "team": [
+    {
+     "species": 13,
+     "level": 18
+    },
+    {
+     "species": 11,
+     "level": 19
+    }
+   ],
+   "reward": 420,
+   "intro": "Para ver al Barón primero tienes que pasar por mí. Es el protocolo.",
+   "defeatLine": "Protocolo superado. Adelante.",
+   "afterLine": "El líder lleva cuarenta años en el cargo. No te dejes impresionar.",
+   "isLeader": false,
+   "badge": "",
+   "badgeName": ""
+  },
+  {
+   "id": "t_gal_1",
+   "name": "Mariscadora Uxía",
+   "party": "myt",
+   "sprite": "rival_myt",
+   "team": [
+    {
+     "species": 23,
+     "level": 23
+    },
+    {
+     "species": 18,
+     "level": 23
+    }
+   ],
+   "reward": 480,
+   "intro": "Ya toca mojarse. ¡Y yo vengo empapada!",
+   "defeatLine": "Marea baja para mí...",
+   "afterLine": "Con esta niebla no se ve ni el Pazo. Sigue el camino de piedra.",
+   "isLeader": false,
+   "badge": "",
+   "badgeName": ""
+  },
+  {
+   "id": "t_gal_2",
+   "name": "Notaria Branca",
+   "party": "pas",
+   "sprite": "rival_pas",
+   "team": [
+    {
+     "species": 21,
+     "level": 24
+    },
+    {
+     "species": 24,
+     "level": 25
+    },
+    {
+     "species": 22,
+     "level": 24
+    }
+   ],
+   "reward": 540,
+   "intro": "Doy fe de que vas a perder. Firme aquí, aquí y aquí.",
+   "defeatLine": "Consta en acta: has ganado.",
+   "afterLine": "Recurriré. Algún día. Quizá.",
+   "isLeader": false,
+   "badge": "",
+   "badgeName": ""
+  },
+  {
+   "id": "t_gal_3",
+   "name": "Funcionario Xurxo",
+   "party": "asc",
+   "sprite": "rival_asc",
+   "team": [
+    {
+     "species": 20,
+     "level": 25
+    },
+    {
+     "species": 19,
+     "level": 26
+    }
+   ],
+   "reward": 600,
+   "intro": "¿Que si te dejo pasar? Depende.",
+   "defeatLine": "Pues depende... de que ganes. Y has ganado.",
+   "afterLine": "La líder habla poco pero piensa mucho.",
+   "isLeader": false,
+   "badge": "",
+   "badgeName": ""
+  },
+  {
+   "id": "leader_madrid",
+   "name": "Paloma Prime Time",
+   "party": "leader",
+   "sprite": "leader_madrid",
+   "team": [
+    {
+     "species": 1,
+     "level": 12
+    },
+    {
+     "species": 4,
+     "level": 12
+    },
+    {
+     "species": 2,
+     "level": 14
+    }
+   ],
+   "reward": 1200,
+   "intro": "¡Bienvenida, bienvenido, a la Asamblea! Esto es un directo: si pierdes, lo verá todo el país. ¡Luces, cámara... debate!",
+   "defeatLine": "¡Corten! Has estado brillante. Toma, el Escaño de Madrid. Lo has ganado en antena.",
+   "afterLine": "Andalucía te espera al sur. Allí los barones no se dejan ganar tan fácil.",
+   "isLeader": true,
+   "badge": "madrid",
+   "badgeName": "Escaño de Madrid"
+  },
+  {
+   "id": "leader_andalucia",
+   "name": "Don Gumersindo de la Vara",
+   "party": "leader",
+   "sprite": "leader_andalucia",
+   "team": [
+    {
+     "species": 10,
+     "level": 19
+    },
+    {
+     "species": 11,
+     "level": 20
+    },
+    {
+     "species": 12,
+     "level": 22
+    }
+   ],
+   "reward": 2000,
+   "intro": "Cuarenta años presidiendo este Parlamento y aún me sorprenden los jóvenes. A ver qué traes, criatura.",
+   "defeatLine": "Ea. Has ganado con todas las de la ley. Toma el Escaño del Sur, que te lo has ganado.",
+   "afterLine": "Ve a Galicia por la carretera del oeste de Madrid. Y llévate un paraguas.",
+   "isLeader": true,
+   "badge": "andalucia",
+   "badgeName": "Escaño del Sur"
+  },
+  {
+   "id": "leader_galicia",
+   "name": "Dona Brétema",
+   "party": "leader",
+   "sprite": "leader_galicia",
+   "team": [
+    {
+     "species": 18,
+     "level": 27
+    },
+    {
+     "species": 20,
+     "level": 28
+    },
+    {
+     "species": 19,
+     "level": 30
+    }
+   ],
+   "reward": 3000,
+   "intro": "...¿Ganar o perder? Depende. Aquí, en casa, mis afiliados juegan con ventaja. Veremos.",
+   "defeatLine": "...Ben. Tes o Escaño do Noroeste. Dicen que un Candidato Eterno te espera en Madrid.",
+   "afterLine": "Vuelve a Madrid. El Hemiciclo Nacional ya te abrirá sus puertas.",
+   "isLeader": true,
+   "badge": "galicia",
+   "badgeName": "Escaño do Noroeste"
+  }
+ ]
+}

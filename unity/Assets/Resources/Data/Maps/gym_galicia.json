@@ -1,0 +1,113 @@
+{
+ "id": "gym_galicia",
+ "name": "Parlamento del Noroeste",
+ "zone": "galicia",
+ "music": "gym",
+ "width": 10,
+ "height": 14,
+ "border": " ",
+ "interior": true,
+ "legend": [
+  {
+   "symbol": "#",
+   "tile": "wall_int"
+  },
+  {
+   "symbol": "X",
+   "tile": "carpet"
+  },
+  {
+   "symbol": "Y",
+   "tile": "podium"
+  },
+  {
+   "symbol": "e",
+   "tile": "mat"
+  },
+  {
+   "symbol": "p",
+   "tile": "plant"
+  },
+  {
+   "symbol": "s",
+   "tile": "seat"
+  },
+  {
+   "symbol": " ",
+   "tile": "void"
+  }
+ ],
+ "rows": [
+  "##########",
+  "#pXXYXXXp#",
+  "#XXXXXXXX#",
+  "#XXXXXXXX#",
+  "#sssXXsss#",
+  "#XXXXXXXX#",
+  "#sssXXsss#",
+  "#XXXXXXXX#",
+  "#sssXXsss#",
+  "#XXXXXXXX#",
+  "#sssXXsss#",
+  "#XXXXXXXX#",
+  "#pXXXXXXp#",
+  "####ee####"
+ ],
+ "warps": [
+  {
+   "x": 4,
+   "y": 13,
+   "toMap": "galicia",
+   "toX": 6,
+   "toY": 7,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 5,
+   "y": 13,
+   "toMap": "galicia",
+   "toX": 6,
+   "toY": 7,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  }
+ ],
+ "npcs": [
+  {
+   "id": "leader_galicia",
+   "x": 4,
+   "y": 2,
+   "sprite": "leader_galicia",
+   "facing": "down",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "leader_galicia",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "t_gal_3",
+   "x": 5,
+   "y": 7,
+   "sprite": "rival_asc",
+   "facing": "left",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "t_gal_3",
+   "sight": 1,
+   "hideIf": "",
+   "stock": []
+  }
+ ],
+ "signs": [],
+ "items": [],
+ "areas": [],
+ "encounterRate": 0.0,
+ "encounters": []
+}

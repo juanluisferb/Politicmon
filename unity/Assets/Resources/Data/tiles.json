@@ -1,0 +1,765 @@
+{
+ "columns": 16,
+ "tiles": [
+  {
+   "name": "asphalt",
+   "index": 0,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "road_dash_h",
+   "index": 1,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "road_dash_v",
+   "index": 2,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "zebra",
+   "index": 3,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sidewalk",
+   "index": 4,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "bench",
+   "index": 5,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "lamp",
+   "index": 6,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "kiosk",
+   "index": 7,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "fence_iron",
+   "index": 8,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "fountain",
+   "index": 9,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "grass",
+   "index": 10,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "tall_grass",
+   "index": 11,
+   "solid": false,
+   "encounter": true,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "tree",
+   "index": 12,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "flowers",
+   "index": 13,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "hedge",
+   "index": 14,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sign",
+   "index": 15,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sign_albero",
+   "index": 16,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sign_prado",
+   "index": 17,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "roof",
+   "index": 18,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "roof_edge",
+   "index": 19,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "wall",
+   "index": 20,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "window",
+   "index": 21,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "door",
+   "index": 22,
+   "solid": false,
+   "encounter": false,
+   "door": true,
+   "water": false
+  },
+  {
+   "name": "ministry_column",
+   "index": 23,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "ministry_wall",
+   "index": 24,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "ministry_door",
+   "index": 25,
+   "solid": false,
+   "encounter": false,
+   "door": true,
+   "water": false
+  },
+  {
+   "name": "sede_roof",
+   "index": 26,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sede_roof_edge",
+   "index": 27,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sede_wall",
+   "index": 28,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sede_sign",
+   "index": 29,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sede_door",
+   "index": 30,
+   "solid": false,
+   "encounter": false,
+   "door": true,
+   "water": false
+  },
+  {
+   "name": "asamblea_roof",
+   "index": 31,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "asamblea_roof_edge",
+   "index": 32,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "asamblea_column",
+   "index": 33,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "asamblea_emblem",
+   "index": 34,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "asamblea_door",
+   "index": 35,
+   "solid": false,
+   "encounter": false,
+   "door": true,
+   "water": false
+  },
+  {
+   "name": "sur_roof",
+   "index": 36,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sur_roof_edge",
+   "index": 37,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sur_column",
+   "index": 38,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sur_emblem",
+   "index": 39,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sur_door",
+   "index": 40,
+   "solid": false,
+   "encounter": false,
+   "door": true,
+   "water": false
+  },
+  {
+   "name": "noroeste_roof",
+   "index": 41,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "noroeste_roof_edge",
+   "index": 42,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "noroeste_column",
+   "index": 43,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "noroeste_emblem",
+   "index": 44,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "noroeste_door",
+   "index": 45,
+   "solid": false,
+   "encounter": false,
+   "door": true,
+   "water": false
+  },
+  {
+   "name": "albero",
+   "index": 46,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "cobble",
+   "index": 47,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "cal_wall",
+   "index": 48,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "cal_window",
+   "index": 49,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "cal_door",
+   "index": 50,
+   "solid": false,
+   "encounter": false,
+   "door": true,
+   "water": false
+  },
+  {
+   "name": "tile_roof",
+   "index": 51,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "tile_roof_edge",
+   "index": 52,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "caseta_top",
+   "index": 53,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "caseta",
+   "index": 54,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "caseta_door",
+   "index": 55,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "caseta2_top",
+   "index": 56,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "caseta2",
+   "index": 57,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "naranjo",
+   "index": 58,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "olivo",
+   "index": 59,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "farol",
+   "index": 60,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "macetas",
+   "index": 61,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "fence_wood",
+   "index": 62,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "dry_grass",
+   "index": 63,
+   "solid": false,
+   "encounter": true,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "stone_path",
+   "index": 64,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "prado",
+   "index": 65,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "fog_grass",
+   "index": 66,
+   "solid": false,
+   "encounter": true,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "pine",
+   "index": 67,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "stone_fence",
+   "index": 68,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "granite_wall",
+   "index": 69,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "granite_window",
+   "index": 70,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "granite_door",
+   "index": 71,
+   "solid": false,
+   "encounter": false,
+   "door": true,
+   "water": false
+  },
+  {
+   "name": "slate_roof",
+   "index": 72,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "slate_roof_edge",
+   "index": 73,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "horreo_top",
+   "index": 74,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "horreo_bottom",
+   "index": 75,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "water",
+   "index": 76,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": true
+  },
+  {
+   "name": "dock",
+   "index": 77,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "boat",
+   "index": 78,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "rocks",
+   "index": 79,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "sand",
+   "index": 80,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "floor",
+   "index": 81,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "wall_int",
+   "index": 82,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "counter",
+   "index": 83,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "carpet",
+   "index": 84,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "carpet_plain",
+   "index": 85,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "seat",
+   "index": 86,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "plant",
+   "index": 87,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "mat",
+   "index": 88,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "shelf",
+   "index": 89,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "urna",
+   "index": 90,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "podium",
+   "index": 91,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "desk",
+   "index": 92,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "void",
+   "index": 93,
+   "solid": true,
+   "encounter": false,
+   "door": false,
+   "water": false
+  },
+  {
+   "name": "tile_floor",
+   "index": 94,
+   "solid": false,
+   "encounter": false,
+   "door": false,
+   "water": false
+  }
+ ]
+}

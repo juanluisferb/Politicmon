@@ -6,6 +6,7 @@ rivales inventados y conquistas los tres Parlamentos (Escaños). Sátira amable:
 partido representa a personas o partidos reales.
 
 - Motor: **Godot 4.7.2** (GDScript), renderizador GL Compatibility, orientación vertical.
+- También disponible como **proyecto Unity 6 en C#** en [`unity/`](unity/README.md) (mismo contenido).
 - Todo (código, datos, pixel art, fuente, música y efectos) está generado por este repositorio.
 - Duración estimada: 45-60 minutos (`tools/balance.sh` simula una partida completa: ~53 min).
 

@@ -1,0 +1,383 @@
+{
+ "id": "galicia",
+ "name": "Galicia",
+ "zone": "galicia",
+ "music": "galicia",
+ "width": 26,
+ "height": 40,
+ "border": "T",
+ "interior": false,
+ "legend": [
+  {
+   "symbol": "\"",
+   "tile": "fog_grass"
+  },
+  {
+   "symbol": "#",
+   "tile": "dock"
+  },
+  {
+   "symbol": ",",
+   "tile": "stone_path"
+  },
+  {
+   "symbol": ".",
+   "tile": "prado"
+  },
+  {
+   "symbol": "A",
+   "tile": "noroeste_roof"
+  },
+  {
+   "symbol": "B",
+   "tile": "boat"
+  },
+  {
+   "symbol": "C",
+   "tile": "noroeste_column"
+  },
+  {
+   "symbol": "D",
+   "tile": "granite_door"
+  },
+  {
+   "symbol": "E",
+   "tile": "sede_door"
+  },
+  {
+   "symbol": "G",
+   "tile": "noroeste_door"
+  },
+  {
+   "symbol": "H",
+   "tile": "horreo_top"
+  },
+  {
+   "symbol": "J",
+   "tile": "horreo_bottom"
+  },
+  {
+   "symbol": "P",
+   "tile": "sede_roof"
+  },
+  {
+   "symbol": "Q",
+   "tile": "sede_wall"
+  },
+  {
+   "symbol": "R",
+   "tile": "slate_roof"
+  },
+  {
+   "symbol": "S",
+   "tile": "sign_prado"
+  },
+  {
+   "symbol": "T",
+   "tile": "pine"
+  },
+  {
+   "symbol": "W",
+   "tile": "granite_wall"
+  },
+  {
+   "symbol": "X",
+   "tile": "rocks"
+  },
+  {
+   "symbol": "a",
+   "tile": "noroeste_roof_edge"
+  },
+  {
+   "symbol": "c",
+   "tile": "noroeste_emblem"
+  },
+  {
+   "symbol": "f",
+   "tile": "flowers"
+  },
+  {
+   "symbol": "i",
+   "tile": "stone_fence"
+  },
+  {
+   "symbol": "p",
+   "tile": "sede_roof_edge"
+  },
+  {
+   "symbol": "q",
+   "tile": "sede_sign"
+  },
+  {
+   "symbol": "r",
+   "tile": "slate_roof_edge"
+  },
+  {
+   "symbol": "s",
+   "tile": "sand"
+  },
+  {
+   "symbol": "w",
+   "tile": "granite_window"
+  },
+  {
+   "symbol": "~",
+   "tile": "water"
+  }
+ ],
+ "rows": [
+  "TTTTTTTTTTTTTTTTTTTTTTTTTT",
+  "T............iTTTTTTTTTTTT",
+  "T.T........T.i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T...AAAAAA...i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T...aaaaaa...i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T...CcCCcC...i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T...CCGCCC...i\"\"\"\"\"\"\"\"\"\"\"T",
+  "T.....,......i...........T",
+  "T.....,S.....i....,,.....T",
+  "T.T...,....T.i.HH.,,..H..T",
+  "T.....,......i.JJ.,,..J..T",
+  "T..f..,...f..i....,,.....T",
+  "T.....,......i....,,PPPPPP",
+  "T.....,......i.HH.,,pppppp",
+  "Tiiiii,iiiiiii.JJ.,,QqQQqQ",
+  "T.....,...........,,QQEQQQ",
+  "T.\"\"\"\",\"\"\"\"\"\".....,,.....T",
+  "T.\"\"\"\",\"\"\"T\"\".....,,.....T",
+  "T.\"T\"\",\"\"\"\"\"\".....,,.....T",
+  "T.\"\"\"\",\"\"\"\"\"\".,,,,,,,,,,,T",
+  "T.\"\"\"\",,,,,,,,,,,,,,,,,,,,",
+  "T.\"\"\"\",\"\"\"\"\"\".,,,,,,,,,,,T",
+  "T.\"\"T\",\"\"\"\"\"\"....S,,.....T",
+  "T.\"\"\"\",\"\"T\"\"\".....,,RRRRRT",
+  "T.\"\"\"\",\"\"\"\"\"\".....,,rrrrrT",
+  "T.....,........HH.,,wWwWwT",
+  "Tsssss,sssssss.JJ.,,WWDWWT",
+  "Tsssss,ssSssss....,,.....T",
+  "Tsssss,sssssss\"\"\".,,\"\"\"\"\"T",
+  "Tsssss,sssssss\"\"\".,,\"\"\"\"\"T",
+  "Tssss###sssssX\"\"\".,,\"\"\"\"\"T",
+  "TX~~~###~~~~XX\"\"\".,,\"\"\"\"\"T",
+  "T~~~~###~~~~~X\"\"\".,,\"\"\"\"\"T",
+  "T~~~~#######~X\"\"\".,,\"\"\"\"\"T",
+  "T~B~~###~~~~~X....,,\"\"\"\"\"T",
+  "T~~~~###~~~~~X....,,.....T",
+  "T~~~~###~~B~~X....,,.....T",
+  "T~~X~~~~~~~~~XTTTTTTTTTTTT",
+  "T~~~~~~~~~~~~XTTTTTTTTTTTT",
+  "TTTTTTTTTTTTTTTTTTTTTTTTTT"
+ ],
+ "warps": [
+  {
+   "x": 25,
+   "y": 20,
+   "toMap": "madrid",
+   "toX": 1,
+   "toY": 8,
+   "facing": "right",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 22,
+   "y": 15,
+   "toMap": "sede_galicia",
+   "toX": 4,
+   "toY": 6,
+   "facing": "up",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 6,
+   "y": 6,
+   "toMap": "gym_galicia",
+   "toX": 4,
+   "toY": 12,
+   "facing": "up",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  }
+ ],
+ "npcs": [
+  {
+   "id": "t_gal_1",
+   "x": 7,
+   "y": 33,
+   "sprite": "rival_myt",
+   "facing": "left",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "t_gal_1",
+   "sight": 2,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "t_gal_2",
+   "x": 18,
+   "y": 17,
+   "sprite": "rival_pas",
+   "facing": "down",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "t_gal_2",
+   "sight": 2,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "gal_npc1",
+   "x": 23,
+   "y": 19,
+   "sprite": "npc_d",
+   "facing": "left",
+   "eventType": "talk",
+   "lines": [
+    "¿Que si llueve? Depende.",
+    "¿Que si el Parlamento está lejos? Depende. Está al noroeste, en el Pazo."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "gal_npc2",
+   "x": 15,
+   "y": 22,
+   "sprite": "npc_d",
+   "facing": "down",
+   "eventType": "talk",
+   "lines": [
+    "Aquí los Regionalistas juegan en casa: pegan más fuerte y aguantan más.",
+    "Y la tabla de tipos no les afecta. Ni para bien ni para mal. Como el tiempo."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "gal_npc3",
+   "x": 4,
+   "y": 27,
+   "sprite": "npc_c",
+   "facing": "right",
+   "eventType": "talk",
+   "lines": [
+    "Los Leguleyos lo recurren todo. Si te Imputan, tu afiliado a veces ni se mueve.",
+    "Ve a la Sede a que te lo arreglen: allí los abogados son baratos."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  }
+ ],
+ "signs": [
+  {
+   "x": 7,
+   "y": 8,
+   "text": "PARLAMENTO DO NOROESTE (en el Pazo). Líder: Dona Brétema. Especialista en Regionalistas."
+  },
+  {
+   "x": 17,
+   "y": 22,
+   "text": "ALDEA. Aquí la niebla nunca se va. Los políticos tampoco."
+  },
+  {
+   "x": 9,
+   "y": 27,
+   "text": "PUERTO. Prohibido mariscar sin carnet. Y sin pancarta."
+  }
+ ],
+ "items": [
+  {
+   "id": "gal_item1",
+   "x": 1,
+   "y": 26,
+   "item": "puesto_lista",
+   "count": 1
+  },
+  {
+   "id": "gal_item2",
+   "x": 12,
+   "y": 16,
+   "item": "mitin",
+   "count": 2
+  },
+  {
+   "id": "gal_item3",
+   "x": 24,
+   "y": 34,
+   "item": "puesto_lista",
+   "count": 1
+  }
+ ],
+ "areas": [
+  {
+   "name": "Pazo",
+   "x": 0,
+   "y": 0,
+   "width": 14,
+   "height": 15
+  },
+  {
+   "name": "Aldea con niebla",
+   "x": 14,
+   "y": 0,
+   "width": 12,
+   "height": 40
+  },
+  {
+   "name": "Puerto",
+   "x": 0,
+   "y": 25,
+   "width": 14,
+   "height": 15
+  }
+ ],
+ "encounterRate": 0.11,
+ "encounters": [
+  {
+   "species": 18,
+   "minLevel": 21,
+   "maxLevel": 24,
+   "weight": 24
+  },
+  {
+   "species": 20,
+   "minLevel": 22,
+   "maxLevel": 25,
+   "weight": 16
+  },
+  {
+   "species": 21,
+   "minLevel": 22,
+   "maxLevel": 25,
+   "weight": 15
+  },
+  {
+   "species": 22,
+   "minLevel": 22,
+   "maxLevel": 25,
+   "weight": 15
+  },
+  {
+   "species": 23,
+   "minLevel": 22,
+   "maxLevel": 25,
+   "weight": 15
+  },
+  {
+   "species": 24,
+   "minLevel": 23,
+   "maxLevel": 26,
+   "weight": 15
+  }
+ ]
+}

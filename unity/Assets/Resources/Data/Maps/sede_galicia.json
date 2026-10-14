@@ -1,0 +1,139 @@
+{
+ "id": "sede_galicia",
+ "name": "Sede del Partido",
+ "zone": "galicia",
+ "music": "sede",
+ "width": 10,
+ "height": 8,
+ "border": " ",
+ "interior": true,
+ "legend": [
+  {
+   "symbol": "#",
+   "tile": "wall_int"
+  },
+  {
+   "symbol": "=",
+   "tile": "counter"
+  },
+  {
+   "symbol": "B",
+   "tile": "shelf"
+  },
+  {
+   "symbol": "U",
+   "tile": "urna"
+  },
+  {
+   "symbol": "e",
+   "tile": "mat"
+  },
+  {
+   "symbol": "p",
+   "tile": "plant"
+  },
+  {
+   "symbol": "t",
+   "tile": "tile_floor"
+  },
+  {
+   "symbol": " ",
+   "tile": "void"
+  }
+ ],
+ "rows": [
+  "##########",
+  "#BttttttB#",
+  "#========#",
+  "#tttttttU#",
+  "#tttttttt#",
+  "#tttttttt#",
+  "#pttttttp#",
+  "####ee####"
+ ],
+ "warps": [
+  {
+   "x": 4,
+   "y": 7,
+   "toMap": "galicia",
+   "toX": 22,
+   "toY": 16,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 5,
+   "y": 7,
+   "toMap": "galicia",
+   "toX": 22,
+   "toY": 16,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  }
+ ],
+ "npcs": [
+  {
+   "id": "sede_galicia_nurse",
+   "x": 3,
+   "y": 1,
+   "sprite": "sede",
+   "facing": "down",
+   "eventType": "heal",
+   "lines": [],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "sede_galicia_clerk",
+   "x": 6,
+   "y": 1,
+   "sprite": "clerk",
+   "facing": "down",
+   "eventType": "shop",
+   "lines": [],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": [
+    "carnet_normal",
+    "mitin",
+    "factcheck",
+    "encuesta",
+    "carnet_premium",
+    "puesto_lista"
+   ]
+  },
+  {
+   "id": "sede_galicia_npc",
+   "x": 2,
+   "y": 5,
+   "sprite": "npc_c",
+   "facing": "right",
+   "eventType": "talk",
+   "lines": [
+    "La urna de la esquina es la Secretaría de Organización: ahí gestionas a los afiliados que no caben en tu equipo."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  }
+ ],
+ "signs": [
+  {
+   "x": 8,
+   "y": 3,
+   "text": "PC"
+  }
+ ],
+ "items": [],
+ "areas": [],
+ "encounterRate": 0.0,
+ "encounters": []
+}

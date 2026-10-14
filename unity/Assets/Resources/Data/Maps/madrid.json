@@ -1,0 +1,515 @@
+{
+ "id": "madrid",
+ "name": "Madrid",
+ "zone": "madrid",
+ "music": "madrid",
+ "width": 24,
+ "height": 46,
+ "border": "T",
+ "interior": false,
+ "legend": [
+  {
+   "symbol": "\"",
+   "tile": "tall_grass"
+  },
+  {
+   "symbol": ",",
+   "tile": "sidewalk"
+  },
+  {
+   "symbol": ".",
+   "tile": "asphalt"
+  },
+  {
+   "symbol": "A",
+   "tile": "asamblea_roof"
+  },
+  {
+   "symbol": "C",
+   "tile": "asamblea_column"
+  },
+  {
+   "symbol": "D",
+   "tile": "door"
+  },
+  {
+   "symbol": "E",
+   "tile": "sede_door"
+  },
+  {
+   "symbol": "G",
+   "tile": "asamblea_door"
+  },
+  {
+   "symbol": "M",
+   "tile": "ministry_column"
+  },
+  {
+   "symbol": "N",
+   "tile": "ministry_door"
+  },
+  {
+   "symbol": "P",
+   "tile": "sede_roof"
+  },
+  {
+   "symbol": "Q",
+   "tile": "sede_wall"
+  },
+  {
+   "symbol": "R",
+   "tile": "roof"
+  },
+  {
+   "symbol": "S",
+   "tile": "sign"
+  },
+  {
+   "symbol": "T",
+   "tile": "tree"
+  },
+  {
+   "symbol": "W",
+   "tile": "wall"
+  },
+  {
+   "symbol": "a",
+   "tile": "asamblea_roof_edge"
+  },
+  {
+   "symbol": "b",
+   "tile": "bench"
+  },
+  {
+   "symbol": "c",
+   "tile": "asamblea_emblem"
+  },
+  {
+   "symbol": "f",
+   "tile": "flowers"
+  },
+  {
+   "symbol": "g",
+   "tile": "grass"
+  },
+  {
+   "symbol": "h",
+   "tile": "hedge"
+  },
+  {
+   "symbol": "i",
+   "tile": "fence_iron"
+  },
+  {
+   "symbol": "k",
+   "tile": "kiosk"
+  },
+  {
+   "symbol": "l",
+   "tile": "lamp"
+  },
+  {
+   "symbol": "m",
+   "tile": "ministry_wall"
+  },
+  {
+   "symbol": "o",
+   "tile": "fountain"
+  },
+  {
+   "symbol": "p",
+   "tile": "sede_roof_edge"
+  },
+  {
+   "symbol": "q",
+   "tile": "sede_sign"
+  },
+  {
+   "symbol": "r",
+   "tile": "roof_edge"
+  },
+  {
+   "symbol": "w",
+   "tile": "window"
+  },
+  {
+   "symbol": "z",
+   "tile": "zebra"
+  },
+  {
+   "symbol": "|",
+   "tile": "road_dash_v"
+  }
+ ],
+ "rows": [
+  "TTTTTTTTTTTTTTTTTTTTTTTT",
+  "T,,,,,,,,,,,,,,,,,,,,,,T",
+  "T,AAAAAA,,,,,,,,RRRRRR,T",
+  "T,aaaaaa,,,f,,,,rrrrrr,T",
+  "T,CcCCcC,,fof,,,MmMMmM,T",
+  "T,CCGCCCSl,,,,lSMMNMMM,T",
+  "T,,,,,,,,,,,,,,,,,,,,,,T",
+  "T,,,,,,,,,b,,b,,,,,,,,,T",
+  ",,,,,,,,,,,,,,,,,,,,,,,T",
+  "T,,,,,,,,,,,,,,,,,,,,,,T",
+  "Thhhhhhh,,,,,,,hhhhhhhhT",
+  "T,RRRRRR,,.|.,,PPPPPP,,T",
+  "T,rrrrrr,,.|.,,pppppp,,T",
+  "T,wWwwWw,l.|.l,QqQQqQ,,T",
+  "T,WWWwWW,,.|.,,QQEQQQ,kT",
+  "Tb,,,,,,,,.|.,,,,,,,,,,T",
+  "T,,,,,,,,,.|.,,,,,,,,,,T",
+  "T,RRRRRR,,.|.,,RRRRRR,,T",
+  "T,rrrrrr,,.|.,,rrrrrr,,T",
+  "T,wWWwWw,l.|.l,MmMMmM,,T",
+  "T,WWDWWW,,.|.,,MmMMmM,kT",
+  "Tb,,,,,,,,.|.,,,,,,,,,,T",
+  "T,,,,,,,S,zzz,,,,,,,,,,T",
+  "T,RRRRRR,,.|.,,RRRRRR,,T",
+  "T,rrrrrr,,.|.,,rrrrrr,,T",
+  "T,wWwwWw,l.|.l,wWWwWw,,T",
+  "T,WWWwWW,,.|.,,WWDWWW,kT",
+  "T,,,,,,,,,.|.,,,,,,,,,,T",
+  "T,,,,,,,,,zzz,,,,,,,,,,T",
+  "Tiiiiiii,,.|.,,iiiiiiiiT",
+  "TTggggggg,.|.,g\"\"\"\"\"\"\"gT",
+  "Tg\"\"\"\"\"\"g,.|.Sg\"\"\"\"\"\"\"gT",
+  "Tg\"\"\"\"\"\"g,.|.,g\"\"\"\"\"\"\"gT",
+  "Tg\"\"\"\"\"\"g,.|.,g\"\"\"\"\"\"\"gT",
+  "Tg\"\"\"\"\"\"g,.|.,ggggggggTT",
+  "Tg\"\"\"\"\"\"g,.|.,ggRRRRRRgT",
+  "Tg\"\"\"\"\"\"g,.|.,TgrrrrrrgT",
+  "Tg\"\"\"\"\"\"g,.|.,ggwWWwWwgT",
+  "Tg\"\"\"\"\"\"g,.|.,fgWWDWWWgT",
+  "Tgggggggg,.|.,gg,,,ggggT",
+  "TTggbggfg,.|.,gg,,,ggfgT",
+  "Tgggggggg,.|.,gg,,,ggggT",
+  "Thhhhhhhhh.|.hhhhhhhhhhT",
+  "Thhhhhhhhhh|hhhhhhhhhhhT",
+  "Thhhhhhhhhh|hhhhhhhhhhhT",
+  "TTTTTTTTTTT|TTTTTTTTTTTT"
+ ],
+ "warps": [
+  {
+   "x": 4,
+   "y": 5,
+   "toMap": "gym_madrid",
+   "toX": 4,
+   "toY": 12,
+   "facing": "up",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 18,
+   "y": 5,
+   "toMap": "hemiciclo",
+   "toX": 4,
+   "toY": 10,
+   "facing": "up",
+   "requiredBadges": 3,
+   "requiredFlag": "",
+   "deniedText": "Las puertas del Hemiciclo Nacional están cerradas. Un cartel dice: «Solo para quien tenga tres Escaños»."
+  },
+  {
+   "x": 17,
+   "y": 14,
+   "toMap": "sede_madrid",
+   "toX": 4,
+   "toY": 6,
+   "facing": "up",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 18,
+   "y": 38,
+   "toMap": "madrid_garaje",
+   "toX": 3,
+   "toY": 5,
+   "facing": "up",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 0,
+   "y": 8,
+   "toMap": "galicia",
+   "toX": 24,
+   "toY": 20,
+   "facing": "left",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 11,
+   "y": 45,
+   "toMap": "andalucia",
+   "toX": 12,
+   "toY": 1,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  }
+ ],
+ "npcs": [
+  {
+   "id": "guard_south",
+   "x": 11,
+   "y": 43,
+   "sprite": "guard",
+   "facing": "up",
+   "eventType": "talk",
+   "lines": [
+    "¡Alto! La carretera a Andalucía está cortada por una caravana de coches oficiales.",
+    "Vuelve cuando tengas el Escaño de Madrid. Lo gana quien vence en la Asamblea, al norte."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "badge:madrid",
+   "stock": []
+  },
+  {
+   "id": "guard_west",
+   "x": 1,
+   "y": 8,
+   "sprite": "guard",
+   "facing": "right",
+   "eventType": "talk",
+   "lines": [
+    "La autovía a Galicia está en obras desde hace once legislaturas.",
+    "Dicen que la inaugurarán cuando alguien gane el Escaño del Sur. Pásate entonces."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "badge:andalucia",
+   "stock": []
+  },
+  {
+   "id": "t_mad_1",
+   "x": 13,
+   "y": 20,
+   "sprite": "rival_ppi",
+   "facing": "left",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "t_mad_1",
+   "sight": 3,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "t_mad_2",
+   "x": 8,
+   "y": 34,
+   "sprite": "rival_asc",
+   "facing": "right",
+   "eventType": "trainer",
+   "lines": [],
+   "trainer": "t_mad_2",
+   "sight": 2,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "mad_npc1",
+   "x": 6,
+   "y": 7,
+   "sprite": "npc_a",
+   "facing": "down",
+   "eventType": "talk",
+   "lines": [
+    "Los Tuiteros y los Tecnócratas tumban a los Mediáticos.",
+    "¡Y la líder de la Asamblea es Mediática hasta la médula! Busca afiliados en la hierba del Barrio de Tertulias."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "mad_npc2",
+   "x": 20,
+   "y": 7,
+   "sprite": "npc_b",
+   "facing": "left",
+   "eventType": "talk",
+   "lines": [
+    "Dicen que dentro del Hemiciclo duerme un candidato que lleva toda la vida presentándose...",
+    "Si consigues los tres Escaños, quizá te deje verle la sonrisa."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "mad_npc3",
+   "x": 14,
+   "y": 15,
+   "sprite": "npc_c",
+   "facing": "down",
+   "eventType": "talk",
+   "lines": [
+    "En la Sede del Partido curan a tus afiliados gratis. A cambio, solo piden una foto para redes."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "mad_npc4",
+   "x": 5,
+   "y": 39,
+   "sprite": "npc_a",
+   "facing": "right",
+   "eventType": "talk",
+   "lines": [
+    "En este barrio todos opinamos de todo. Yo controlo de política, fútbol y vulcanología.",
+    "Consejo gratis: si un político está bajo de Carisma o envuelto en un Escándalo, se afilia más fácil."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  },
+  {
+   "id": "mad_npc5",
+   "x": 21,
+   "y": 24,
+   "sprite": "npc_b",
+   "facing": "left",
+   "eventType": "talk",
+   "lines": [
+    "El Puertagiratoria sale de un ministerio y entra en un consejo de administración sin despeinarse."
+   ],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "",
+   "stock": []
+  }
+ ],
+ "signs": [
+  {
+   "x": 4,
+   "y": 20,
+   "text": "Está cerrado. Un cartel dice: «Vuelva usted mañana»."
+  },
+  {
+   "x": 17,
+   "y": 26,
+   "text": "Está cerrado. Un cartel dice: «Vuelva usted mañana»."
+  },
+  {
+   "x": 8,
+   "y": 5,
+   "text": "ASAMBLEA DE MADRID. Líder: Paloma Prime Time. «Aquí se debate en directo»."
+  },
+  {
+   "x": 15,
+   "y": 5,
+   "text": "HEMICICLO NACIONAL. Abierto solo a quien gane los tres Escaños."
+  },
+  {
+   "x": 8,
+   "y": 22,
+   "text": "GRAN VÍA. Más carriles que propuestas. Al sur, el Barrio de Tertulias."
+  },
+  {
+   "x": 13,
+   "y": 31,
+   "text": "BARRIO DE TERTULIAS. Aquí se opina gratis. Cuidado con la hierba alta: está llena de políticos."
+  }
+ ],
+ "items": [
+  {
+   "id": "mad_item1",
+   "x": 3,
+   "y": 37,
+   "item": "carnet_premium",
+   "count": 2
+  },
+  {
+   "id": "mad_item2",
+   "x": 21,
+   "y": 33,
+   "item": "mitin",
+   "count": 1
+  },
+  {
+   "id": "mad_item3",
+   "x": 22,
+   "y": 1,
+   "item": "encuesta",
+   "count": 2
+  }
+ ],
+ "areas": [
+  {
+   "name": "Ministerios",
+   "x": 0,
+   "y": 0,
+   "width": 24,
+   "height": 10
+  },
+  {
+   "name": "Gran Vía",
+   "x": 0,
+   "y": 10,
+   "width": 24,
+   "height": 19
+  },
+  {
+   "name": "Barrio de Tertulias",
+   "x": 0,
+   "y": 29,
+   "width": 24,
+   "height": 17
+  }
+ ],
+ "encounterRate": 0.11,
+ "encounters": [
+  {
+   "species": 8,
+   "minLevel": 3,
+   "maxLevel": 6,
+   "weight": 28
+  },
+  {
+   "species": 4,
+   "minLevel": 3,
+   "maxLevel": 6,
+   "weight": 24
+  },
+  {
+   "species": 9,
+   "minLevel": 4,
+   "maxLevel": 7,
+   "weight": 16
+  },
+  {
+   "species": 1,
+   "minLevel": 3,
+   "maxLevel": 5,
+   "weight": 10
+  },
+  {
+   "species": 6,
+   "minLevel": 5,
+   "maxLevel": 7,
+   "weight": 14
+  },
+  {
+   "species": 7,
+   "minLevel": 5,
+   "maxLevel": 8,
+   "weight": 8
+  }
+ ]
+}

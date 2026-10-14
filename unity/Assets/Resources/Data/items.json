@@ -1,0 +1,76 @@
+{
+ "items": [
+  {
+   "id": "carnet_normal",
+   "name": "Carnet Normal",
+   "kind": "carnet",
+   "catchMultiplier": 1.0,
+   "amount": 0,
+   "curesStatus": "",
+   "price": 200,
+   "usage": "battle",
+   "icon": "carnet",
+   "description": "Carnet de afiliación de toda la vida."
+  },
+  {
+   "id": "carnet_premium",
+   "name": "Carnet Premium",
+   "kind": "carnet",
+   "catchMultiplier": 1.5,
+   "amount": 0,
+   "curesStatus": "",
+   "price": 600,
+   "usage": "battle",
+   "icon": "premium",
+   "description": "Incluye cuota reducida y taza. Afilia mejor."
+  },
+  {
+   "id": "puesto_lista",
+   "name": "Puesto en la Lista",
+   "kind": "carnet",
+   "catchMultiplier": 2.5,
+   "amount": 0,
+   "curesStatus": "",
+   "price": 1200,
+   "usage": "battle",
+   "icon": "lista",
+   "description": "Nadie se resiste a un puesto de salida."
+  },
+  {
+   "id": "encuesta",
+   "name": "Encuesta",
+   "kind": "scan",
+   "catchMultiplier": 0.0,
+   "amount": 0,
+   "curesStatus": "",
+   "price": 100,
+   "usage": "battle",
+   "icon": "encuesta",
+   "description": "Muestra las estadísticas del rival. Margen de error: el que sea."
+  },
+  {
+   "id": "mitin",
+   "name": "Mitin",
+   "kind": "heal",
+   "catchMultiplier": 0.0,
+   "amount": 50,
+   "curesStatus": "",
+   "price": 300,
+   "usage": "both",
+   "icon": "mitin",
+   "description": "Un baño de aplausos. Recupera 50 PS de Carisma."
+  },
+  {
+   "id": "factcheck",
+   "name": "Fact-check",
+   "kind": "cure",
+   "catchMultiplier": 0.0,
+   "amount": 0,
+   "curesStatus": "escandalo",
+   "price": 250,
+   "usage": "both",
+   "icon": "factcheck",
+   "description": "Desmiente el bulo. Cura el Escándalo."
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "regionalBonus": 1.3,
+ "regionalType": "regionalista",
+ "types": [
+  {
+   "id": "populista",
+   "name": "Populista",
+   "color": "#d83828"
+  },
+  {
+   "id": "tecnocrata",
+   "name": "Tecnócrata",
+   "color": "#4c7cc0"
+  },
+  {
+   "id": "mediatico",
+   "name": "Mediático",
+   "color": "#e8b400"
+  },
+  {
+   "id": "burocrata",
+   "name": "Burócrata",
+   "color": "#a89c80"
+  },
+  {
+   "id": "activista",
+   "name": "Activista",
+   "color": "#38a040"
+  },
+  {
+   "id": "baron",
+   "name": "Barón",
+   "color": "#8c2034"
+  },
+  {
+   "id": "lobista",
+   "name": "Lobista",
+   "color": "#484848"
+  },
+  {
+   "id": "leguleyo",
+   "name": "Leguleyo",
+   "color": "#7c44a8"
+  },
+  {
+   "id": "tuitero",
+   "name": "Tuitero",
+   "color": "#58b8ec"
+  },
+  {
+   "id": "regionalista",
+   "name": "Regionalista",
+   "color": "#203c78"
+  }
+ ],
+ "chart": [
+  {
+   "attacker": "populista",
+   "defender": "tecnocrata",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "populista",
+   "defender": "mediatico",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "populista",
+   "defender": "leguleyo",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "tecnocrata",
+   "defender": "mediatico",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "tecnocrata",
+   "defender": "populista",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "tecnocrata",
+   "defender": "tuitero",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "mediatico",
+   "defender": "populista",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "mediatico",
+   "defender": "tecnocrata",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "mediatico",
+   "defender": "tuitero",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "burocrata",
+   "defender": "activista",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "burocrata",
+   "defender": "leguleyo",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "burocrata",
+   "defender": "baron",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "burocrata",
+   "defender": "lobista",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "activista",
+   "defender": "baron",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "activista",
+   "defender": "lobista",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "activista",
+   "defender": "burocrata",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "baron",
+   "defender": "burocrata",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "baron",
+   "defender": "activista",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "baron",
+   "defender": "lobista",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "lobista",
+   "defender": "baron",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "lobista",
+   "defender": "burocrata",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "lobista",
+   "defender": "leguleyo",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "lobista",
+   "defender": "activista",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "leguleyo",
+   "defender": "lobista",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "leguleyo",
+   "defender": "populista",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "leguleyo",
+   "defender": "tuitero",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "leguleyo",
+   "defender": "burocrata",
+   "multiplier": 0.5
+  },
+  {
+   "attacker": "tuitero",
+   "defender": "mediatico",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "tuitero",
+   "defender": "tecnocrata",
+   "multiplier": 2.0
+  },
+  {
+   "attacker": "tuitero",
+   "defender": "leguleyo",
+   "multiplier": 0.5
+  }
+ ]
+}

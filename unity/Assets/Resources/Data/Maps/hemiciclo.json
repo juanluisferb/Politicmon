@@ -1,0 +1,98 @@
+{
+ "id": "hemiciclo",
+ "name": "Hemiciclo Nacional",
+ "zone": "madrid",
+ "music": "legend",
+ "width": 10,
+ "height": 12,
+ "border": " ",
+ "interior": true,
+ "legend": [
+  {
+   "symbol": "#",
+   "tile": "wall_int"
+  },
+  {
+   "symbol": "X",
+   "tile": "carpet"
+  },
+  {
+   "symbol": "Y",
+   "tile": "podium"
+  },
+  {
+   "symbol": "e",
+   "tile": "mat"
+  },
+  {
+   "symbol": "p",
+   "tile": "plant"
+  },
+  {
+   "symbol": "s",
+   "tile": "seat"
+  },
+  {
+   "symbol": " ",
+   "tile": "void"
+  }
+ ],
+ "rows": [
+  "##########",
+  "#pssYsssp#",
+  "#XXXXXXXX#",
+  "#sXXXXXXs#",
+  "#ssXXXXss#",
+  "#XXXXXXXX#",
+  "#ssXXXXss#",
+  "#XXXXXXXX#",
+  "#ssXXXXss#",
+  "#XXXXXXXX#",
+  "#pXXXXXXp#",
+  "####ee####"
+ ],
+ "warps": [
+  {
+   "x": 4,
+   "y": 11,
+   "toMap": "madrid",
+   "toX": 18,
+   "toY": 6,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  },
+  {
+   "x": 5,
+   "y": 11,
+   "toMap": "madrid",
+   "toX": 18,
+   "toY": 6,
+   "facing": "down",
+   "requiredBadges": 0,
+   "requiredFlag": "",
+   "deniedText": ""
+  }
+ ],
+ "npcs": [
+  {
+   "id": "eterno",
+   "x": 4,
+   "y": 2,
+   "sprite": "eterno",
+   "facing": "down",
+   "eventType": "legend",
+   "lines": [],
+   "trainer": "",
+   "sight": 0,
+   "hideIf": "flag:legend_done",
+   "stock": []
+  }
+ ],
+ "signs": [],
+ "items": [],
+ "areas": [],
+ "encounterRate": 0.0,
+ "encounters": []
+}

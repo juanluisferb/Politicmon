@@ -1,0 +1,34 @@
+{
+ "parties": [
+  {
+   "id": "jugador",
+   "name": "Partido Nuevo",
+   "shortName": "PN",
+   "motto": ""
+  },
+  {
+   "id": "ppi",
+   "name": "Partido del Progreso Infinito",
+   "shortName": "PPI",
+   "motto": "¡Progreso hoy, mañana y pasado!"
+  },
+  {
+   "id": "asc",
+   "name": "Alianza por el Sentido Común",
+   "shortName": "ASC",
+   "motto": "Lo normal, pero más."
+  },
+  {
+   "id": "myt",
+   "name": "Movimiento Ya Toca",
+   "shortName": "MYT",
+   "motto": "¡Ya toca! ¿El qué? Ya toca."
+  },
+  {
+   "id": "pas",
+   "name": "Plataforma del Ahora Sí",
+   "shortName": "PAS",
+   "motto": "Antes no, pero ahora sí."
+  }
+ ]
+}
