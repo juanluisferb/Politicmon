@@ -1,0 +1,30 @@
+// Tipos de mueble: tamaño en casillas, a quién bloquea y si tapa la vista.
+// `tall` = altura en píxeles que sobresale hacia arriba al dibujarlo (vista 3/4).
+// low: mesas y camas -> el hurón pasa por debajo y queda escondido.
+export const FURNITURE = {
+  sofa:      { w: 3, h: 2, blocksFerret: true, blocksOwner: true, tall: 10, stash: 'sofa', label: 'Sofá' },
+  bed:       { w: 2, h: 3, blocksFerret: false, blocksOwner: true, hides: true, tall: 6, label: 'Cama' },
+  table:     { w: 2, h: 2, blocksFerret: false, blocksOwner: true, hides: true, tall: 12, label: 'Mesa' },
+  desk:      { w: 2, h: 1, blocksFerret: false, blocksOwner: true, hides: true, tall: 12, label: 'Escritorio' },
+  chair:     { w: 1, h: 1, blocksFerret: false, blocksOwner: true, tall: 10 },
+  counter:   { w: 1, h: 1, blocksFerret: true, blocksOwner: true, blocksVision: true, tall: 12 },
+  stove:     { w: 1, h: 1, blocksFerret: true, blocksOwner: true, blocksVision: true, tall: 12 },
+  fridge:    { w: 1, h: 1, blocksFerret: true, blocksOwner: true, blocksVision: true, tall: 24 },
+  wardrobe:  { w: 2, h: 1, blocksFerret: true, blocksOwner: true, blocksVision: true, tall: 26 },
+  bookshelf: { w: 2, h: 1, blocksFerret: true, blocksOwner: true, blocksVision: true, tall: 24 },
+  tv:        { w: 2, h: 1, blocksFerret: true, blocksOwner: true, tall: 14, label: 'Tele' },
+  plant:     { w: 1, h: 1, blocksFerret: true, blocksOwner: true, tall: 14 },
+  drawer:    { w: 2, h: 1, blocksFerret: true, blocksOwner: true, tall: 12, container: true, label: 'Cómoda' },
+  nightstand:{ w: 1, h: 1, blocksFerret: true, blocksOwner: true, tall: 8, container: true, label: 'Mesilla' },
+  basket:    { w: 1, h: 1, blocksFerret: true, blocksOwner: true, tall: 6, container: true, label: 'Cesta de la colada' },
+  coatrack:  { w: 1, h: 1, blocksFerret: true, blocksOwner: true, tall: 24, container: true, label: 'Abrigo' },
+  bag:       { w: 1, h: 1, blocksFerret: true, blocksOwner: true, tall: 4, container: true, label: 'Bolso' },
+  washer:    { w: 1, h: 1, blocksFerret: true, blocksOwner: true, blocksVision: true, tall: 12, label: 'Lavadora' },
+  bathtub:   { w: 3, h: 1, blocksFerret: true, blocksOwner: true, tall: 6 },
+  toilet:    { w: 1, h: 1, blocksFerret: true, blocksOwner: true, tall: 8 },
+  sink:      { w: 1, h: 1, blocksFerret: true, blocksOwner: true, tall: 10 },
+  shoerack:  { w: 2, h: 1, blocksFerret: true, blocksOwner: true, tall: 6, container: true, label: 'Zapatero' },
+  playpen:   { w: 2, h: 2, blocksFerret: true, blocksOwner: true, tall: 8, label: 'Corralito' },
+  burrow:    { w: 1, h: 1, tall: 0, stash: 'burrow', label: 'Madriguera' },
+  tube:      { w: 1, h: 1, tall: 0, label: 'Tubo' },
+};

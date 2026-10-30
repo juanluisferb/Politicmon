@@ -1,0 +1,6 @@
+node_modules/
+dist/
+build/
+android/.cache/
+android/debug.p12
+!release/*.apk

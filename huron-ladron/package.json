@@ -1,0 +1,21 @@
+{
+  "name": "huron-ladron",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hurón Ladrón: juego 2D de sigilo con hurones (primera versión jugable)",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/dev.mjs",
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "node tests/e2e/smoke.mjs",
+    "balance": "node tools/balance.mjs",
+    "apk": "npm run build && bash android/build_apk.sh"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  }
+}
